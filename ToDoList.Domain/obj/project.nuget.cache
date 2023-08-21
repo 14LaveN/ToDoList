@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3s21k7trIjNZYEfDFOOL8dEwb+AfWF/BRrsgSWU8ovEfg8DRcpmaIJGNy/Wt5NzrmbkUxJKzaYA+HDm3Wl3LOA==",
+  "dgSpecHash": "GsMH9n6VRTqkkBrRZTz7Jprqh1nFZZ/QKswmyVI33mAr9ni11Qs0R+hJ3Rm+iMIaI0sZD4uV3XpyLf5a+IGphg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\leowa\\Desktop\\YouTube\\ToDoList\\ToDoList.Domain\\ToDoList.Domain.csproj",
+  "projectFilePath": "E:\\VS2022\\ToDoList\\ToDoList.Domain\\ToDoList.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

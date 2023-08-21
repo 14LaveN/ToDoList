@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\leowa\\Desktop\\YouTube\\ToDoList\\ToDoList.Service\\ToDoList.Service.csproj": {}
+    "E:\\VS2022\\ToDoList\\ToDoList.Service\\ToDoList.Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leowa\\Desktop\\YouTube\\ToDoList\\ToDoList.DAL\\ToDoList.DAL.csproj": {
+    "E:\\VS2022\\ToDoList\\ToDoList.DAL\\ToDoList.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leowa\\Desktop\\YouTube\\ToDoList\\ToDoList.DAL\\ToDoList.DAL.csproj",
+        "projectUniqueName": "E:\\VS2022\\ToDoList\\ToDoList.DAL\\ToDoList.DAL.csproj",
         "projectName": "ToDoList.DAL",
-        "projectPath": "C:\\Users\\leowa\\Desktop\\YouTube\\ToDoList\\ToDoList.DAL\\ToDoList.DAL.csproj",
-        "packagesPath": "C:\\Users\\leowa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leowa\\Desktop\\YouTube\\ToDoList\\ToDoList.DAL\\obj\\",
+        "projectPath": "E:\\VS2022\\ToDoList\\ToDoList.DAL\\ToDoList.DAL.csproj",
+        "packagesPath": "C:\\Users\\Laven\\.nuget\\packages\\",
+        "outputPath": "E:\\VS2022\\ToDoList\\ToDoList.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\leowa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Laven\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\leowa\\Desktop\\YouTube\\ToDoList\\ToDoList.Domain\\ToDoList.Domain.csproj": {
-                "projectPath": "C:\\Users\\leowa\\Desktop\\YouTube\\ToDoList\\ToDoList.Domain\\ToDoList.Domain.csproj"
+              "E:\\VS2022\\ToDoList\\ToDoList.Domain\\ToDoList.Domain.csproj": {
+                "projectPath": "E:\\VS2022\\ToDoList\\ToDoList.Domain\\ToDoList.Domain.csproj"
               }
             }
           }
@@ -69,24 +70,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\leowa\\Desktop\\YouTube\\ToDoList\\ToDoList.Domain\\ToDoList.Domain.csproj": {
+    "E:\\VS2022\\ToDoList\\ToDoList.Domain\\ToDoList.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leowa\\Desktop\\YouTube\\ToDoList\\ToDoList.Domain\\ToDoList.Domain.csproj",
+        "projectUniqueName": "E:\\VS2022\\ToDoList\\ToDoList.Domain\\ToDoList.Domain.csproj",
         "projectName": "ToDoList.Domain",
-        "projectPath": "C:\\Users\\leowa\\Desktop\\YouTube\\ToDoList\\ToDoList.Domain\\ToDoList.Domain.csproj",
-        "packagesPath": "C:\\Users\\leowa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leowa\\Desktop\\YouTube\\ToDoList\\ToDoList.Domain\\obj\\",
+        "projectPath": "E:\\VS2022\\ToDoList\\ToDoList.Domain\\ToDoList.Domain.csproj",
+        "packagesPath": "C:\\Users\\Laven\\.nuget\\packages\\",
+        "outputPath": "E:\\VS2022\\ToDoList\\ToDoList.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\leowa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Laven\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -95,6 +96,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -128,24 +130,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\leowa\\Desktop\\YouTube\\ToDoList\\ToDoList.Service\\ToDoList.Service.csproj": {
+    "E:\\VS2022\\ToDoList\\ToDoList.Service\\ToDoList.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leowa\\Desktop\\YouTube\\ToDoList\\ToDoList.Service\\ToDoList.Service.csproj",
+        "projectUniqueName": "E:\\VS2022\\ToDoList\\ToDoList.Service\\ToDoList.Service.csproj",
         "projectName": "ToDoList.Service",
-        "projectPath": "C:\\Users\\leowa\\Desktop\\YouTube\\ToDoList\\ToDoList.Service\\ToDoList.Service.csproj",
-        "packagesPath": "C:\\Users\\leowa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leowa\\Desktop\\YouTube\\ToDoList\\ToDoList.Service\\obj\\",
+        "projectPath": "E:\\VS2022\\ToDoList\\ToDoList.Service\\ToDoList.Service.csproj",
+        "packagesPath": "C:\\Users\\Laven\\.nuget\\packages\\",
+        "outputPath": "E:\\VS2022\\ToDoList\\ToDoList.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\leowa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Laven\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -154,17 +156,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\leowa\\Desktop\\YouTube\\ToDoList\\ToDoList.DAL\\ToDoList.DAL.csproj": {
-                "projectPath": "C:\\Users\\leowa\\Desktop\\YouTube\\ToDoList\\ToDoList.DAL\\ToDoList.DAL.csproj"
+              "E:\\VS2022\\ToDoList\\ToDoList.DAL\\ToDoList.DAL.csproj": {
+                "projectPath": "E:\\VS2022\\ToDoList\\ToDoList.DAL\\ToDoList.DAL.csproj"
               },
-              "C:\\Users\\leowa\\Desktop\\YouTube\\ToDoList\\ToDoList.Domain\\ToDoList.Domain.csproj": {
-                "projectPath": "C:\\Users\\leowa\\Desktop\\YouTube\\ToDoList\\ToDoList.Domain\\ToDoList.Domain.csproj"
+              "E:\\VS2022\\ToDoList\\ToDoList.Domain\\ToDoList.Domain.csproj": {
+                "projectPath": "E:\\VS2022\\ToDoList\\ToDoList.Domain\\ToDoList.Domain.csproj"
               }
             }
           }
@@ -194,7 +197,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
