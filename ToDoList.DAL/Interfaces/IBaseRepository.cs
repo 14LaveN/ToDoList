@@ -9,4 +9,8 @@ public interface IBaseRepository<T>
     Task Delete(T entity);
 
     Task<T> Update(T entity);
+
+    Task<T> GetByName(string name);
+
+    Task<T> GetById(long id);
 }

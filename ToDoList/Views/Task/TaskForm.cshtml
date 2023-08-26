@@ -1,0 +1,121 @@
+﻿@using ToDoList.Domain.Entity;
+@using ToDoList.Domain.Enum
+@model IQueryable<TaskEntity>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<link rel="stylesheet" href="~/css/TaskForm.css" />
+
+@*@if (Model != null)
+{
+    @foreach (var item in Model)
+    {
+        <label>@item.Name</label>
+        <label>@item.Description</label>
+    }
+}*@
+
+    @if (User.Identity.IsAuthenticated)
+    {
+    <h4 class="mb-3 text-muted">Создание задачи</h4>
+        <header class="header">
+            <form id="createTaskForm">
+                <input class="input" name="Author" value="@User.Identity.Name" />
+                <div class="mb-3">
+                    <label class="form-label">Название задачи</label>
+                    <input class="input" name="name" type="text" />
+                </div>
+                <label class="form-label">Приоритет задачи</label>
+                <select name="priority" class="form-select mb-3" asp-items="Html.GetEnumSelectList<Priority>()"></select>
+                <div class="mb-3">
+                    <label class="form-label">Описание задачи</label>
+                    <textarea class="input" name="description" type="text" rows="3"></textarea>
+                </div>
+                <button id="createTask" type="button" class="addButton">
+                    <span class="button__text">Add task</span>
+                    <span class="button__icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" height="24" fill="none" class="svg"><line y2="19" y1="5" x2="12" x1="12"></line><line y2="12" y1="12" x2="19" x1="5"></line></svg></span>
+                </button>
+            </form>
+            <div class="createdTasks">
+            @foreach (var item in Model)
+            {
+                <div class="taskForm">
+                    <p class="form-title">@item.Name</p>
+
+                    <p class="form-text">@item.Priority</p>
+                    <div class="input-container">
+                        <p class="form-text">@item.Description</p>
+                    </div>
+                    <p class="signup-link">
+                        Date of creation: @item.CreationDate
+                    </p>
+                    <div class="toolButtons">
+                        <form class="deleteButtonForm" asp-controller="Task" asp-action="Delete" asp-route-id="@item.Id">
+                            <button class="delete-button">
+                                <svg class="delete-svgIcon" viewBox="0 0 448 512">
+                                    <path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"></path>
+                                </svg>
+                            </button>
+                        </form>
+                        <form class="endTaskForm" asp-controller="Task" asp-action="EndTask" asp-route-id="@item.Id">
+                            <button class="endButton">
+                                Complete
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            }
+            </div>
+    </header>
+    @if (Model.Count() != 0)
+    {
+        <label>Completed tasks:</label>
+        if (Model.Where(x => x.IsDone == true).Count() != 0)
+        {
+            @foreach (var item in Model.Where(x => x.IsDone == true))
+            {
+                <h1>@item.Name</h1>
+                <h1>@item.Description</h1>
+                <h1>@item.CreationDate</h1>
+                <h1>@item.Priority</h1>
+            }
+        }
+    }     
+    }
+    else
+    {
+        <label>Register please</label>
+    }
+
+
+@section Scripts
+{
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        $('#createTask').on('click', function (e){
+            e.preventDefault();
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("Create", "Task")',
+                data: $('#createTaskForm').serialize(),
+                success: function (response) {
+                    Swal.fire({
+                        title: 'Информация',
+                        text: response.description,
+                        icon: 'success',
+                        confirmButtonText: 'Окей'
+                    })
+                },
+                error: function (response) {
+                     Swal.fire({
+                        title: 'Информация',
+                        text: response.responseJSON.description,
+                        icon: 'error',
+                        confirmButtonText: 'Окей'
+                     })
+                }
+            })
+        });
+    </script>
+}

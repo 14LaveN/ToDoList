@@ -5,6 +5,8 @@ namespace ToDoList.Domain.Entity;
 public class TaskEntity
 {
     public long Id { get; set; }
+
+    public string Author { get; set; }
     
     public string Name { get; set; }
     
@@ -12,7 +14,7 @@ public class TaskEntity
     
     public string Description { get; set; }
     
-    public DateTime Created { get; set; }
+    public DateTime CreationDate { get; set; }
     
     public Priority Priority { get; set; }
 }

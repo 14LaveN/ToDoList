@@ -7,4 +7,12 @@ namespace ToDoList.Service.Interfaces;
 public interface ITaskService
 {
     Task<IBaseResponse<TaskEntity>> Create(CreateTaskViewModel model);
+
+    Task<IBaseResponse<TaskEntity>> Delete(long id);
+
+    Task<IBaseResponse<TaskEntity>> Update(long id);
+
+    IBaseResponse<IQueryable<TaskEntity>> GetAll();
+
+    Task<IBaseResponse<TaskEntity>> EndTask(long id);
 }

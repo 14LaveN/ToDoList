@@ -1,4 +1,7 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
+using NLog.Web;
+using ToDoList;
 using ToDoList.DAL;
 using ToDoList.DAL.Interfaces;
 using ToDoList.DAL.Repositories;
@@ -13,11 +16,26 @@ builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 builder.Services.AddScoped<IBaseRepository<TaskEntity>, TaskRepository>();
 builder.Services.AddScoped<ITaskService, TaskService>();
 
-var connectionString = builder.Configuration.GetConnectionString("MSSQL");
-builder.Services.AddDbContext<AppDbContext>(options =>
+builder.Logging.ClearProviders().SetMinimumLevel(LogLevel.Trace);
+builder.Logging.AddNLogWeb("nlog.config");
+
+builder.Host.UseNLog();
+
+builder.Services.InitializeRepositories();
+builder.Services.InitializeServices();
+
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<FirstAppDbContext>(options =>
 {
     options.UseSqlServer(connectionString);
 });
+
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.LoginPath = new PathString("/Account/Login");
+        options.AccessDeniedPath = new PathString("/Account/Login");
+    });
 
 var app = builder.Build();
 
@@ -33,9 +51,10 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+app.UseAuthentication();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Task}/{action=Index}/{id?}");
+    pattern: "{controller=Task}/{action=TaskForm}/{id?}");
 
 app.Run();

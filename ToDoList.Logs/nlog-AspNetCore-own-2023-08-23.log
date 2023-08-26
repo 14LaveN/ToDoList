@@ -1,0 +1,36 @@
+2023-08-23 18:55:47.7173|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-23 18:55:47.7394|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-23 18:55:47.7394|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-23 18:55:49.3707|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: Index|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-23 18:55:49.3761|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 23.08.2023 18:55:49 |url: https://localhost/|action: Index|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-23 18:55:58.0202|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: Index|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-23 18:55:58.0202|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 23.08.2023 18:55:58 |url: https://localhost/|action: Index|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-23 18:56:18.0964|0|INFO|ToDoList.Service.Implementations.AccountService|Request for login a user: Lavenka |url: https://localhost/Account/Login|action: Login|ToDoList.Service.Implementations.AccountService.Login
+2023-08-23 18:56:18.0964|0|INFO|ToDoList.Service.Implementations.AccountService|User logined: Lavenka |url: https://localhost/Account/Login|action: Login|ToDoList.Service.Implementations.AccountService.Login
+2023-08-23 18:56:21.1578|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: Index|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-23 18:56:21.1578|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 23.08.2023 18:56:21 |url: https://localhost/|action: Index|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-23 18:56:22.9384|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: Index|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-23 18:56:22.9384|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 23.08.2023 18:56:22 |url: https://localhost/|action: Index|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-23 18:56:28.6441|0|INFO|ToDoList.Service.Implementations.TaskService|Request for create a task - Lox |url: https://localhost/Task/Create|action: Create|ToDoList.Service.Implementations.TaskService.Create
+2023-08-23 18:56:28.9078|0|INFO|ToDoList.Service.Implementations.TaskService|Task created: Lox 23.08.2023 18:56:28 |url: https://localhost/Task/Create|action: Create|ToDoList.Service.Implementations.TaskService.Create
+2023-08-23 18:56:30.4651|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: Index|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-23 18:56:30.4705|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 23.08.2023 18:56:30 |url: https://localhost/|action: Index|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-23 18:56:33.6893|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: Index|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-23 18:56:33.6893|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 23.08.2023 18:56:33 |url: https://localhost/|action: Index|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-23 21:06:18.8240|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-23 21:06:18.8888|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-23 21:06:18.8888|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-23 21:06:20.4884|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: Index|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-23 21:06:20.4884|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 23.08.2023 21:06:20 |url: https://localhost/|action: Index|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-23 21:06:50.1753|0|INFO|ToDoList.Service.Implementations.TaskService|Request for create a task - овапропролва |url: https://localhost/Task/Create|action: Create|ToDoList.Service.Implementations.TaskService.Create
+2023-08-23 21:06:50.5070|0|INFO|ToDoList.Service.Implementations.TaskService|Task created: овапропролва 23.08.2023 21:06:50 |url: https://localhost/Task/Create|action: Create|ToDoList.Service.Implementations.TaskService.Create
+2023-08-23 21:06:54.5732|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: Index|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-23 21:06:54.5732|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 23.08.2023 21:06:54 |url: https://localhost/|action: Index|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-23 21:07:05.4911|0|INFO|ToDoList.Service.Implementations.TaskService|Request for end a task - овапропролва |url: https://localhost/Task/EndTask/20010|action: EndTask|ToDoList.Service.Implementations.TaskService.EndTask
+2023-08-23 21:07:05.5210|0|INFO|ToDoList.Service.Implementations.TaskService|End task: овапропролва 23.08.2023 21:06:50 |url: https://localhost/Task/EndTask/20010|action: EndTask|ToDoList.Service.Implementations.TaskService.EndTask
+2023-08-23 21:07:05.5210|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: Index|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-23 21:07:05.5210|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 23.08.2023 21:07:05 |url: https://localhost/|action: Index|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-23 21:07:09.4123|0|INFO|ToDoList.Service.Implementations.TaskService|Request for end a task - Lox |url: https://localhost/Task/EndTask/20009|action: EndTask|ToDoList.Service.Implementations.TaskService.EndTask
+2023-08-23 21:07:09.4123|0|INFO|ToDoList.Service.Implementations.TaskService|End task: Lox 23.08.2023 18:56:28 |url: https://localhost/Task/EndTask/20009|action: EndTask|ToDoList.Service.Implementations.TaskService.EndTask
+2023-08-23 21:07:09.4247|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: Index|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-23 21:07:09.4247|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 23.08.2023 21:07:09 |url: https://localhost/|action: Index|ToDoList.Service.Implementations.TaskService.GetAll
