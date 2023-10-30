@@ -16,5 +16,5 @@ public class TaskViewModel
     [Range(1, 230, ErrorMessage = "Enter a description")]
     public required string Description { get; set; }
 
-    public Priority Priority { get; set; }
+    public required Priority Priority { get; set; }
 }

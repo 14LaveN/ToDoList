@@ -67,6 +67,9 @@ namespace ToDoList.DAL.Migrations
                     b.Property<bool>("IsDone")
                         .HasColumnType("bit");
 
+                    b.Property<bool>("IsUpdateNow")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

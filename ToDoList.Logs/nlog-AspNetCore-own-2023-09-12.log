@@ -1,0 +1,7 @@
+2023-09-12 17:41:31.0123|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7214 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-09-12 17:41:31.0800|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5047 |url: |action: |Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync
+2023-09-12 17:41:31.0800|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-09-12 17:41:31.0811|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-09-12 17:41:31.0811|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-09-12 17:41:33.4050|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-09-12 17:41:33.4186|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 12.09.2023 17:41:33 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll

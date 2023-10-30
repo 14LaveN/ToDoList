@@ -10,7 +10,7 @@ public interface ITaskService
 
     Task<IBaseResponse<TaskEntity>> Delete(long id);
 
-    Task<IBaseResponse<TaskEntity>> Update(long id);
+    Task<IBaseResponse<TaskEntity>> Update(CreateTaskViewModel createTaskViewModel);
 
     IBaseResponse<IQueryable<TaskEntity>> GetAll();
 

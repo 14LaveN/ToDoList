@@ -5,12 +5,32 @@
       "PackagePath": "staticwebassets\\ToDoList.bundle.scp.css"
     },
     {
-      "Id": "E:\\VS2022\\ToDoList\\ToDoList\\wwwroot\\css\\LoginForm.css",
-      "PackagePath": "staticwebassets\\css\\LoginForm.css"
+      "Id": "E:\\VS2022\\ToDoList\\ToDoList\\wwwroot\\css\\Account\\LoginForm.css",
+      "PackagePath": "staticwebassets\\css\\Account\\LoginForm.css"
     },
     {
-      "Id": "E:\\VS2022\\ToDoList\\ToDoList\\wwwroot\\css\\TaskForm.css",
-      "PackagePath": "staticwebassets\\css\\TaskForm.css"
+      "Id": "E:\\VS2022\\ToDoList\\ToDoList\\wwwroot\\css\\Account\\ProfileForm.css",
+      "PackagePath": "staticwebassets\\css\\Account\\ProfileForm.css"
+    },
+    {
+      "Id": "E:\\VS2022\\ToDoList\\ToDoList\\wwwroot\\css\\StandartStyle.css",
+      "PackagePath": "staticwebassets\\css\\StandartStyle.css"
+    },
+    {
+      "Id": "E:\\VS2022\\ToDoList\\ToDoList\\wwwroot\\css\\Task\\CompletedTasks.css",
+      "PackagePath": "staticwebassets\\css\\Task\\CompletedTasks.css"
+    },
+    {
+      "Id": "E:\\VS2022\\ToDoList\\ToDoList\\wwwroot\\css\\Task\\TaskForm.css",
+      "PackagePath": "staticwebassets\\css\\Task\\TaskForm.css"
+    },
+    {
+      "Id": "E:\\VS2022\\ToDoList\\ToDoList\\wwwroot\\css\\github.css",
+      "PackagePath": "staticwebassets\\css\\github.css"
+    },
+    {
+      "Id": "E:\\VS2022\\ToDoList\\ToDoList\\wwwroot\\css\\layout.css",
+      "PackagePath": "staticwebassets\\css\\layout.css"
     },
     {
       "Id": "E:\\VS2022\\ToDoList\\ToDoList\\wwwroot\\css\\site.css",

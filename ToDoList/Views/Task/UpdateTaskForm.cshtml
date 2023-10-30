@@ -1,0 +1,51 @@
+﻿@using ToDoList.Domain.Entity;
+@using ToDoList.Domain.Enum
+@model TaskEntity?
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<link rel="stylesheet" href="~/css/Task/TaskForm.css" />
+<link rel="stylesheet" href="~/css/StandartStyle.css" />
+<link rel="stylesheet" href="~/css/Task/CompletedTasks.css" />
+
+<div class="mainClass">
+    @if (User.Identity.IsAuthenticated)
+    {
+        <h4 class="headerTitle">Update a task</h4>
+        <header class="header">
+
+            <form id="updateTaskForm">
+                <input class="inputAuthor" name="Author" value="@User.Identity.Name" />
+                <div class="mb-3">
+                    <input value="@Model.Name" class="inputAuthor" name="name" type="text" />
+                </div>
+                <label class="form-label">Task Priority</label>
+                <select name="priority" class="input" asp-items="Html.GetEnumSelectList<Priority>()"></select>
+                <div class="mb-3">
+                    <label class="form-label">Task description</label>
+                    <textarea class="input" name="description" type="text" rows="3"></textarea>
+                </div>
+                <button id="updateTask" type="button" class="addButton">
+                    <span class="button__text">Add task</span>
+                    <span class="button__icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" height="24" fill="none" class="svg"><line y2="19" y1="5" x2="12" x1="12"></line><line y2="12" y1="12" x2="19" x1="5"></line></svg></span>
+                </button>
+            </form>
+        </header>
+    }
+</div>
+
+@section Scripts
+    {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        $('#updateTask').on('click', function (e) {
+            e.preventDefault();
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("Update", "Task")',
+                data: $('#updateTaskForm').serialize()
+            })
+        });
+    </script>
+}

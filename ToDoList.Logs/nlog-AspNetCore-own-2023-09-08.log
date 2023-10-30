@@ -1,0 +1,114 @@
+2023-09-08 20:51:32.3666|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-09-08 20:51:32.3987|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-09-08 20:51:32.3987|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-09-08 20:51:34.6400|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-09-08 20:51:34.6475|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 08.09.2023 20:51:34 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-09-08 20:51:40.9269|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-09-08 20:51:40.9269|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 08.09.2023 20:51:40 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-09-08 20:51:45.2278|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-09-08 20:51:45.2278|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 08.09.2023 20:51:45 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-09-08 20:51:54.9803|0|INFO|ToDoList.Service.Implementations.AccountService|Request for login a user: Lavenka |url: https://localhost/Account/Login|action: Login|ToDoList.Service.Implementations.AccountService.Login
+2023-09-08 20:51:55.2856|0|INFO|ToDoList.Service.Implementations.AccountService|User logined: Lavenka |url: https://localhost/Account/Login|action: Login|ToDoList.Service.Implementations.AccountService.Login
+2023-09-08 20:51:55.3011|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-09-08 20:51:55.3011|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 08.09.2023 20:51:55 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-09-08 20:51:57.2624|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-09-08 20:51:57.2691|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 08.09.2023 20:51:57 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-09-08 20:52:01.2100|0|INFO|ToDoList.Service.Implementations.TaskService|Request for create a task - dfghdfg |url: https://localhost/Task/Create|action: Create|ToDoList.Service.Implementations.TaskService.Create
+2023-09-08 20:52:01.5086|0|INFO|ToDoList.Service.Implementations.TaskService|Task created: dfghdfg 08.09.2023 20:52:01 |url: https://localhost/Task/Create|action: Create|ToDoList.Service.Implementations.TaskService.Create
+2023-09-08 20:52:02.9581|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-09-08 20:52:02.9581|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 08.09.2023 20:52:02 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-09-08 20:52:04.6625|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/Task/UpdateTaskForm/60017|action: UpdateTaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-09-08 20:52:04.6625|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 08.09.2023 20:52:04 |url: https://localhost/Task/UpdateTaskForm/60017|action: UpdateTaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-09-08 20:52:06.2732|0|INFO|ToDoList.Service.Implementations.TaskService|Request for update a task - dfghdfg |url: https://localhost/Task/Update|action: Update|ToDoList.Service.Implementations.TaskService.Update
+2023-09-08 20:52:06.4870|0|ERROR|Microsoft.EntityFrameworkCore.Update|An exception occurred in the database while saving changes for context type 'ToDoList.DAL.FirstAppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Не удалось вставить значение NULL в столбец "Description", таблицы "ToDoList.dbo.Tasks"; в столбце запрещены значения NULL. Ошибка в UPDATE.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:382e21d8-3a86-4dce-8e3a-4f4fba89bfe6
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken) Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Не удалось вставить значение NULL в столбец "Description", таблицы "ToDoList.dbo.Tasks"; в столбце запрещены значения NULL. Ошибка в UPDATE.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:382e21d8-3a86-4dce-8e3a-4f4fba89bfe6
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)|url: https://localhost/Task/Update|action: Update|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`3.Log
+2023-09-08 20:52:06.5945|0|ERROR|ToDoList.Service.Implementations.TaskService|[TaskService.Update]: An error occurred while saving the entity changes. See the inner exception for details. Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Не удалось вставить значение NULL в столбец "Description", таблицы "ToDoList.dbo.Tasks"; в столбце запрещены значения NULL. Ошибка в UPDATE.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:382e21d8-3a86-4dce-8e3a-4f4fba89bfe6
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at ToDoList.DAL.Repositories.TaskRepository.Update(TaskEntity entity) in E:\VS2022\ToDoList\ToDoList.DAL\Repositories\TaskRepository.cs:line 37
+   at ToDoList.Service.Implementations.TaskService.Update(CreateTaskViewModel createTaskViewModel) in E:\VS2022\ToDoList\ToDoList.Service\Implementations\TaskService.cs:line 137|url: https://localhost/Task/Update|action: Update|ToDoList.Service.Implementations.TaskService.Update
+2023-09-08 20:52:06.6137|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-09-08 20:52:06.6137|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 08.09.2023 20:52:06 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-09-08 20:52:13.6170|0|INFO|ToDoList.Service.Implementations.TaskService|Request for update a task - dfghdfg |url: https://localhost/Task/Update|action: Update|ToDoList.Service.Implementations.TaskService.Update
+2023-09-08 20:52:13.6170|0|INFO|ToDoList.Service.Implementations.TaskService|Task updated: dfghdfg 08.09.2023 20:52:13 |url: https://localhost/Task/Update|action: Update|ToDoList.Service.Implementations.TaskService.Update
+2023-09-08 20:52:13.6295|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-09-08 20:52:13.6295|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 08.09.2023 20:52:13 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-09-08 20:52:14.8875|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-09-08 20:52:14.8875|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 08.09.2023 20:52:14 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll

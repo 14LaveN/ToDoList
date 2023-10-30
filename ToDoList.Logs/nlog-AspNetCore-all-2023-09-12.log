@@ -1,0 +1,615 @@
+2023-09-12 17:41:30.7789|0|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider 
+2023-09-12 17:41:30.8680|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting 
+2023-09-12 17:41:30.8911|0|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Laven\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2023-09-12 17:41:30.8940|0|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Laven\AppData\Local\ASP.NET\DataProtection-Keys\key-986fe8c4-a792-4074-b9ad-6a118ccf56a9.xml'. 
+2023-09-12 17:41:30.8940|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {986fe8c4-a792-4074-b9ad-6a118ccf56a9}. 
+2023-09-12 17:41:30.8940|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {986fe8c4-a792-4074-b9ad-6a118ccf56a9} with expiration date 2023-09-21 05:02:24Z as default key. 
+2023-09-12 17:41:30.9101|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-09-12 17:41:30.9101|0|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI. 
+2023-09-12 17:41:30.9101|0|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60 
+2023-09-12 17:41:30.9101|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC. 
+2023-09-12 17:41:30.9101|0|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC. 
+2023-09-12 17:41:30.9101|0|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {986fe8c4-a792-4074-b9ad-6a118ccf56a9} as the default key. 
+2023-09-12 17:41:30.9101|0|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {986fe8c4-a792-4074-b9ad-6a118ccf56a9} was loaded during application startup. 
+2023-09-12 17:41:31.0123|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7214 
+2023-09-12 17:41:31.0800|0|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5047 
+2023-09-12 17:41:31.0800|0|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly ToDoList 
+2023-09-12 17:41:31.0800|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. 
+2023-09-12 17:41:31.0811|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development 
+2023-09-12 17:41:31.0811|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList 
+2023-09-12 17:41:31.0811|0|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started 
+2023-09-12 17:41:31.3970|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTJGKQP7TGN" received FIN. 
+2023-09-12 17:41:31.3970|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTJGKQP7TGN" accepted. 
+2023-09-12 17:41:31.3970|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTJGKQP7TGN" started. 
+2023-09-12 17:41:31.4178|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection. System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-12 17:41:31.4406|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTJGKQP7TGN" stopped. 
+2023-09-12 17:41:31.4426|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTJGKQP7TGN" sending FIN because: "The Socket transport's send loop completed gracefully." 
+2023-09-12 17:41:31.5167|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTJGKQP7TGO" accepted. 
+2023-09-12 17:41:31.5167|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTJGKQP7TGO" started. 
+2023-09-12 17:41:31.5193|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTJGKQP7TGP" accepted. 
+2023-09-12 17:41:31.5193|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTJGKQP7TGP" started. 
+2023-09-12 17:41:31.5546|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTJGKQP7TGO" received FIN. 
+2023-09-12 17:41:31.5738|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMTJGKQP7TGO established using the following protocol: Tls13 
+2023-09-12 17:41:31.5738|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMTJGKQP7TGP established using the following protocol: Tls13 
+2023-09-12 17:41:31.5987|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGO" is closed. The last processed stream ID was 0. 
+2023-09-12 17:41:31.5987|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTJGKQP7TGO" sending FIN because: "The client closed the connection." 
+2023-09-12 17:41:31.5987|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|The connection queue processing loop for 0HMTJGKQP7TGO completed. 
+2023-09-12 17:41:31.5987|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE. 
+2023-09-12 17:41:31.5987|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTJGKQP7TGO" stopped. 
+2023-09-12 17:41:31.5987|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-09-12 17:41:31.5987|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" received SETTINGS frame for stream ID 0 with length 30 and flags NONE. 
+2023-09-12 17:41:31.5987|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-09-12 17:41:31.5987|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-09-12 17:41:31.5987|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" received HEADERS frame for stream ID 1 with length 1611 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-09-12 17:41:31.6183|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" received SETTINGS frame for stream ID 0 with length 0 and flags ACK. 
+2023-09-12 17:41:31.6349|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7214/ - - 
+2023-09-12 17:41:31.6349|0|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed. 
+2023-09-12 17:41:31.6349|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-09-12 17:41:31.6349|0|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path / does not match a supported file type 
+2023-09-12 17:41:31.6605|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/' 
+2023-09-12 17:41:31.6605|0|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'ToDoList.Controllers.TaskController.TaskForm (ToDoList)' with route pattern '{controller=Task}/{action=TaskForm}/{id?}' is valid for the request path '/' 
+2023-09-12 17:41:31.6605|0|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'ToDoList.Controllers.TaskController.TaskForm (ToDoList)' 
+2023-09-12 17:41:31.6982|0|TRACE|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|Performing unprotect operation to key {986fe8c4-a792-4074-b9ad-6a118ccf56a9} with purposes ('E:\VS2022\ToDoList\ToDoList\', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Cookies', 'v2'). 
+2023-09-12 17:41:31.6982|0|DEBUG|Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationHandler|AuthenticationScheme: Cookies was successfully authenticated. 
+2023-09-12 17:41:31.6982|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'ToDoList.Controllers.TaskController.TaskForm (ToDoList)' 
+2023-09-12 17:41:31.7315|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "TaskForm", controller = "Task"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TaskForm() on controller ToDoList.Controllers.TaskController (ToDoList). 
+2023-09-12 17:41:31.7315|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None 
+2023-09-12 17:41:31.7315|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2023-09-12 17:41:31.7315|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000) 
+2023-09-12 17:41:31.7315|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None 
+2023-09-12 17:41:31.7315|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter 
+2023-09-12 17:41:31.7315|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-09-12 17:41:31.7315|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-09-12 17:41:31.7315|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller ToDoList.Controllers.TaskController (ToDoList) 
+2023-09-12 17:41:31.9618|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework. 
+2023-09-12 17:41:32.4918|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.10 initialized 'FirstAppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.10' with options: None 
+2023-09-12 17:41:32.5495|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection. 
+2023-09-12 17:41:32.6351|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (84ms). 
+2023-09-12 17:41:32.6351|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'ToDoList' on server 'localhost\LAVENSQL'. 
+2023-09-12 17:41:32.9527|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'ToDoList' on server 'localhost\LAVENSQL'. 
+2023-09-12 17:41:32.9577|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'. 
+2023-09-12 17:41:32.9577|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (3ms). 
+2023-09-12 17:41:32.9577|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (5ms). 
+2023-09-12 17:41:32.9577|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 
+2023-09-12 17:41:32.9897|0|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (23ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1 
+2023-09-12 17:41:32.9897|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'ToDoList' on server 'localhost\LAVENSQL'. 
+2023-09-12 17:41:32.9897|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'ToDoList' on server 'localhost\LAVENSQL' (4ms). 
+2023-09-12 17:41:32.9897|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteScalar'. 
+2023-09-12 17:41:32.9897|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteScalar' (0ms). 
+2023-09-12 17:41:32.9897|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteScalar' (0ms). 
+2023-09-12 17:41:32.9897|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'ToDoList' on server 'localhost\LAVENSQL'. 
+2023-09-12 17:41:32.9897|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'ToDoList' on server 'localhost\LAVENSQL'. 
+2023-09-12 17:41:32.9897|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0 
+2023-09-12 17:41:33.0229|0|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (20ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0 
+2023-09-12 17:41:33.0229|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'ToDoList' on server 'localhost\LAVENSQL'. 
+2023-09-12 17:41:33.0229|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'ToDoList' on server 'localhost\LAVENSQL' (0ms). 
+2023-09-12 17:41:33.0229|0|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller ToDoList.Controllers.TaskController (ToDoList) 
+2023-09-12 17:41:33.0229|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-09-12 17:41:33.0229|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-09-12 17:41:33.0229|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-09-12 17:41:33.0229|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method ToDoList.Controllers.TaskController.TaskForm (ToDoList) - Validation state: Valid 
+2023-09-12 17:41:33.1010|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<TaskEntity>()' 
+2023-09-12 17:41:33.2381|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<TaskEntity>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: TaskEntity.Id (long) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: TaskEntity.Author (string) Required, 1], [Property: TaskEntity.CreationDate (DateTime) Required, 2], [Property: TaskEntity.Description (string) Required, 3], [Property: TaskEntity.IsDone (bool) Required, 4], [Property: TaskEntity.IsUpdateNow (bool) Required, 5], [Property: TaskEntity.Name (string) Required, 6], [Property: TaskEntity.Priority (Priority) Required, 7] }
+        SELECT t.Id, t.Author, t.CreationDate, t.Description, t.IsDone, t.IsUpdateNow, t.Name, t.Priority
+        FROM Tasks AS t), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, TaskEntity>, 
+    ToDoList.DAL.FirstAppDbContext, 
+    False, 
+    False, 
+    True
+)' 
+2023-09-12 17:41:33.2727|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-09-12 17:41:33.2727|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-09-12 17:41:33.2727|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2023-09-12 17:41:33.2727|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'ToDoList' on server 'localhost\LAVENSQL'. 
+2023-09-12 17:41:33.2727|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'ToDoList' on server 'localhost\LAVENSQL'. 
+2023-09-12 17:41:33.2727|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Author], [t].[CreationDate], [t].[Description], [t].[IsDone], [t].[IsUpdateNow], [t].[Name], [t].[Priority]
+FROM [Tasks] AS [t] 
+2023-09-12 17:41:33.3546|0|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (81ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Author], [t].[CreationDate], [t].[Description], [t].[IsDone], [t].[IsUpdateNow], [t].[Name], [t].[Priority]
+FROM [Tasks] AS [t] 
+2023-09-12 17:41:33.3814|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'FirstAppDbContext' started tracking 'TaskEntity' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-09-12 17:41:33.4050|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'ToDoList' on server 'localhost\LAVENSQL'. 
+2023-09-12 17:41:33.4050|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'ToDoList' on server 'localhost\LAVENSQL' is being disposed after spending 50ms reading results. 
+2023-09-12 17:41:33.4050|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'ToDoList' on server 'localhost\LAVENSQL'. 
+2023-09-12 17:41:33.4050|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'ToDoList' on server 'localhost\LAVENSQL' (0ms). 
+2023-09-12 17:41:33.4050|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks 
+2023-09-12 17:41:33.4186|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-09-12 17:41:33.4186|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-09-12 17:41:33.4186|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2023-09-12 17:41:33.4186|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'ToDoList' on server 'localhost\LAVENSQL'. 
+2023-09-12 17:41:33.4186|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'ToDoList' on server 'localhost\LAVENSQL'. 
+2023-09-12 17:41:33.4186|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Author], [t].[CreationDate], [t].[Description], [t].[IsDone], [t].[IsUpdateNow], [t].[Name], [t].[Priority]
+FROM [Tasks] AS [t] 
+2023-09-12 17:41:33.4186|0|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Author], [t].[CreationDate], [t].[Description], [t].[IsDone], [t].[IsUpdateNow], [t].[Name], [t].[Priority]
+FROM [Tasks] AS [t] 
+2023-09-12 17:41:33.4186|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'ToDoList' on server 'localhost\LAVENSQL'. 
+2023-09-12 17:41:33.4186|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'ToDoList' on server 'localhost\LAVENSQL' is being disposed after spending 0ms reading results. 
+2023-09-12 17:41:33.4186|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'ToDoList' on server 'localhost\LAVENSQL'. 
+2023-09-12 17:41:33.4186|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'ToDoList' on server 'localhost\LAVENSQL' (0ms). 
+2023-09-12 17:41:33.4186|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 12.09.2023 17:41:33 
+2023-09-12 17:41:33.4391|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method ToDoList.Controllers.TaskController.TaskForm (ToDoList), returned result Microsoft.AspNetCore.Mvc.ViewResult in 407.5123ms. 
+2023-09-12 17:41:33.4391|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-09-12 17:41:33.4391|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter. 
+2023-09-12 17:41:33.4391|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter. 
+2023-09-12 17:41:33.4391|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-09-12 17:41:33.4391|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-09-12 17:41:33.4391|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2023-09-12 17:41:33.4435|0|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache miss for view 'TaskForm' in controller 'Task'. 
+2023-09-12 17:41:33.4435|0|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Account/Login.cshtml'. 
+2023-09-12 17:41:33.4435|0|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Account/LoginForm.cshtml'. 
+2023-09-12 17:41:33.4435|0|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Account/RegisterForm.cshtml'. 
+2023-09-12 17:41:33.4435|0|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Profile/ProfileForm.cshtml'. 
+2023-09-12 17:41:33.4435|0|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'. 
+2023-09-12 17:41:33.4435|0|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Task/TaskForm.cshtml'. 
+2023-09-12 17:41:33.4435|0|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Task/UpdateTaskForm.cshtml'. 
+2023-09-12 17:41:33.4435|0|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'. 
+2023-09-12 17:41:33.4435|0|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'. 
+2023-09-12 17:41:33.4435|0|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'. 
+2023-09-12 17:41:33.4435|0|TRACE|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Located compiled view for view at path '/Views/Task/TaskForm.cshtml'. 
+2023-09-12 17:41:33.4710|0|TRACE|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Invalidating compiled view at path '/Views/Task/TaskForm.cshtml' with a file since the checksum did not match. 
+2023-09-12 17:41:35.0260|0|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Compilation of the generated code for the Razor file at 'E:\VS2022\ToDoList\ToDoList\Views\Task\TaskForm.cshtml' started. 
+2023-09-12 17:41:36.9233|0|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Compilation of the generated code for the Razor file at 'E:\VS2022\ToDoList\ToDoList\Views\Task\TaskForm.cshtml' completed in 1894.5762ms. 
+2023-09-12 17:41:36.9264|0|TRACE|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Could not find a file for view at path '/Views/Task/_ViewStart.cshtml'. 
+2023-09-12 17:41:36.9264|0|TRACE|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Located compiled view for view at path '/Views/_ViewStart.cshtml'. 
+2023-09-12 17:41:36.9264|0|TRACE|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Invalidating compiled view at path '/Views/_ViewStart.cshtml' with a file since the checksum did not match. 
+2023-09-12 17:41:37.0433|0|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Compilation of the generated code for the Razor file at 'E:\VS2022\ToDoList\ToDoList\Views\_ViewStart.cshtml' started. 
+2023-09-12 17:41:37.1112|0|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Compilation of the generated code for the Razor file at 'E:\VS2022\ToDoList\ToDoList\Views\_ViewStart.cshtml' completed in 67.835ms. 
+2023-09-12 17:41:37.1112|0|TRACE|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Could not find a file for view at path '/_ViewStart.cshtml'. 
+2023-09-12 17:41:37.1152|0|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executing ViewResult, running view TaskForm. 
+2023-09-12 17:41:37.1152|0|DEBUG|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view path '/Views/Task/TaskForm.cshtml' was found in 3672.99ms. 
+2023-09-12 17:41:37.1662|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<TaskEntity>()
+    .Where(x => x.Author == __User_Identity_Name_0)
+    .Count()' 
+2023-09-12 17:41:37.2670|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<int>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT COUNT(*)
+        FROM Tasks AS t
+        WHERE t.Author == @__User_Identity_Name_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, int>, 
+    ToDoList.DAL.FirstAppDbContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()' 
+2023-09-12 17:41:37.2772|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-09-12 17:41:37.2772|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-09-12 17:41:37.2989|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (21ms). 
+2023-09-12 17:41:37.2989|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'ToDoList' on server 'localhost\LAVENSQL'. 
+2023-09-12 17:41:37.2989|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'ToDoList' on server 'localhost\LAVENSQL'. 
+2023-09-12 17:41:37.3015|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__User_Identity_Name_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Tasks] AS [t]
+WHERE [t].[Author] = @__User_Identity_Name_0 
+2023-09-12 17:41:37.3794|0|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (80ms) [Parameters=[@__User_Identity_Name_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Tasks] AS [t]
+WHERE [t].[Author] = @__User_Identity_Name_0 
+2023-09-12 17:41:37.3794|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'ToDoList' on server 'localhost\LAVENSQL'. 
+2023-09-12 17:41:37.3794|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'ToDoList' on server 'localhost\LAVENSQL' is being disposed after spending 1ms reading results. 
+2023-09-12 17:41:37.3794|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'ToDoList' on server 'localhost\LAVENSQL'. 
+2023-09-12 17:41:37.3794|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'ToDoList' on server 'localhost\LAVENSQL' (0ms). 
+2023-09-12 17:41:37.3794|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<TaskEntity>()
+    .Where(x => x.Author == __User_Identity_Name_0)
+    .Where(x => x.IsDone == True)
+    .Count()' 
+2023-09-12 17:41:37.3794|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<int>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> 0
+        SELECT COUNT(*)
+        FROM Tasks AS t
+        WHERE (t.Author == @__User_Identity_Name_0) && (t.IsDone == CAST(1 AS bit))), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, int>, 
+    ToDoList.DAL.FirstAppDbContext, 
+    False, 
+    False, 
+    True
+)
+    .Single()' 
+2023-09-12 17:41:37.3794|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-09-12 17:41:37.3794|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-09-12 17:41:37.3794|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2023-09-12 17:41:37.3794|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'ToDoList' on server 'localhost\LAVENSQL'. 
+2023-09-12 17:41:37.3794|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'ToDoList' on server 'localhost\LAVENSQL'. 
+2023-09-12 17:41:37.3794|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__User_Identity_Name_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Tasks] AS [t]
+WHERE [t].[Author] = @__User_Identity_Name_0 AND [t].[IsDone] = CAST(1 AS bit) 
+2023-09-12 17:41:37.4184|0|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (31ms) [Parameters=[@__User_Identity_Name_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Tasks] AS [t]
+WHERE [t].[Author] = @__User_Identity_Name_0 AND [t].[IsDone] = CAST(1 AS bit) 
+2023-09-12 17:41:37.4184|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'ToDoList' on server 'localhost\LAVENSQL'. 
+2023-09-12 17:41:37.4184|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'ToDoList' on server 'localhost\LAVENSQL' is being disposed after spending 0ms reading results. 
+2023-09-12 17:41:37.4184|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'ToDoList' on server 'localhost\LAVENSQL'. 
+2023-09-12 17:41:37.4184|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'ToDoList' on server 'localhost\LAVENSQL' (0ms). 
+2023-09-12 17:41:37.4184|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<TaskEntity>()
+    .Where(x => x.Author == __User_Identity_Name_0)
+    .Where(x => x.IsDone == True)' 
+2023-09-12 17:41:37.4184|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<TaskEntity>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: TaskEntity.Id (long) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: TaskEntity.Author (string) Required, 1], [Property: TaskEntity.CreationDate (DateTime) Required, 2], [Property: TaskEntity.Description (string) Required, 3], [Property: TaskEntity.IsDone (bool) Required, 4], [Property: TaskEntity.IsUpdateNow (bool) Required, 5], [Property: TaskEntity.Name (string) Required, 6], [Property: TaskEntity.Priority (Priority) Required, 7] }
+        SELECT t.Id, t.Author, t.CreationDate, t.Description, t.IsDone, t.IsUpdateNow, t.Name, t.Priority
+        FROM Tasks AS t
+        WHERE (t.Author == @__User_Identity_Name_0) && (t.IsDone == CAST(1 AS bit))), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, TaskEntity>, 
+    ToDoList.DAL.FirstAppDbContext, 
+    False, 
+    False, 
+    True
+)' 
+2023-09-12 17:41:37.4184|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-09-12 17:41:37.4184|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-09-12 17:41:37.4184|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2023-09-12 17:41:37.4184|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'ToDoList' on server 'localhost\LAVENSQL'. 
+2023-09-12 17:41:37.4184|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'ToDoList' on server 'localhost\LAVENSQL'. 
+2023-09-12 17:41:37.4184|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__User_Identity_Name_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Author], [t].[CreationDate], [t].[Description], [t].[IsDone], [t].[IsUpdateNow], [t].[Name], [t].[Priority]
+FROM [Tasks] AS [t]
+WHERE [t].[Author] = @__User_Identity_Name_0 AND [t].[IsDone] = CAST(1 AS bit) 
+2023-09-12 17:41:37.4397|0|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (18ms) [Parameters=[@__User_Identity_Name_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Author], [t].[CreationDate], [t].[Description], [t].[IsDone], [t].[IsUpdateNow], [t].[Name], [t].[Priority]
+FROM [Tasks] AS [t]
+WHERE [t].[Author] = @__User_Identity_Name_0 AND [t].[IsDone] = CAST(1 AS bit) 
+2023-09-12 17:41:37.4397|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'FirstAppDbContext' started tracking 'TaskEntity' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-09-12 17:41:37.4412|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'FirstAppDbContext' started tracking 'TaskEntity' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-09-12 17:41:37.4412|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'FirstAppDbContext' started tracking 'TaskEntity' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-09-12 17:41:37.4412|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'FirstAppDbContext' started tracking 'TaskEntity' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-09-12 17:41:37.4412|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'FirstAppDbContext' started tracking 'TaskEntity' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-09-12 17:41:37.4412|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'FirstAppDbContext' started tracking 'TaskEntity' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-09-12 17:41:37.4412|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'ToDoList' on server 'localhost\LAVENSQL'. 
+2023-09-12 17:41:37.4412|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'ToDoList' on server 'localhost\LAVENSQL' is being disposed after spending 2ms reading results. 
+2023-09-12 17:41:37.4412|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'ToDoList' on server 'localhost\LAVENSQL'. 
+2023-09-12 17:41:37.4412|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'ToDoList' on server 'localhost\LAVENSQL' (0ms). 
+2023-09-12 17:41:37.4412|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<TaskEntity>()
+    .Where(x => x.Author == __User_Identity_Name_0)' 
+2023-09-12 17:41:37.4412|0|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<TaskEntity>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: TaskEntity.Id (long) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: TaskEntity.Author (string) Required, 1], [Property: TaskEntity.CreationDate (DateTime) Required, 2], [Property: TaskEntity.Description (string) Required, 3], [Property: TaskEntity.IsDone (bool) Required, 4], [Property: TaskEntity.IsUpdateNow (bool) Required, 5], [Property: TaskEntity.Name (string) Required, 6], [Property: TaskEntity.Priority (Priority) Required, 7] }
+        SELECT t.Id, t.Author, t.CreationDate, t.Description, t.IsDone, t.IsUpdateNow, t.Name, t.Priority
+        FROM Tasks AS t
+        WHERE t.Author == @__User_Identity_Name_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, TaskEntity>, 
+    ToDoList.DAL.FirstAppDbContext, 
+    False, 
+    False, 
+    True
+)' 
+2023-09-12 17:41:37.4412|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'. 
+2023-09-12 17:41:37.4412|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (0ms). 
+2023-09-12 17:41:37.4412|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (0ms). 
+2023-09-12 17:41:37.4412|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'ToDoList' on server 'localhost\LAVENSQL'. 
+2023-09-12 17:41:37.4412|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'ToDoList' on server 'localhost\LAVENSQL'. 
+2023-09-12 17:41:37.4412|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__User_Identity_Name_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Author], [t].[CreationDate], [t].[Description], [t].[IsDone], [t].[IsUpdateNow], [t].[Name], [t].[Priority]
+FROM [Tasks] AS [t]
+WHERE [t].[Author] = @__User_Identity_Name_0 
+2023-09-12 17:41:37.4412|0|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__User_Identity_Name_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Author], [t].[CreationDate], [t].[Description], [t].[IsDone], [t].[IsUpdateNow], [t].[Name], [t].[Priority]
+FROM [Tasks] AS [t]
+WHERE [t].[Author] = @__User_Identity_Name_0 
+2023-09-12 17:41:37.4412|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Task}/{action=TaskForm}/{id?} for address (id=[30010],action=[Delete],controller=[Task]) 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Task}/{action=TaskForm}/{id?} for Route: {controller=Task}/{action=TaskForm}/{id?} resulting in /Task/Delete/30010 and  
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Task}/{action=TaskForm}/{id?} with result /Task/Delete/30010 
+2023-09-12 17:41:37.4593|0|TRACE|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|Performing unprotect operation to key {986fe8c4-a792-4074-b9ad-6a118ccf56a9} with purposes ('E:\VS2022\ToDoList\ToDoList\', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1'). 
+2023-09-12 17:41:37.4593|0|TRACE|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector|Performing protect operation to key {986fe8c4-a792-4074-b9ad-6a118ccf56a9} with purposes ('E:\VS2022\ToDoList\ToDoList\', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1'). 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery|An antiforgery cookie token was reused. 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Task}/{action=TaskForm}/{id?} for address (id=[30010],action=[EndTask],controller=[Task]) 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Task}/{action=TaskForm}/{id?} for Route: {controller=Task}/{action=TaskForm}/{id?} resulting in /Task/EndTask/30010 and  
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Task}/{action=TaskForm}/{id?} with result /Task/EndTask/30010 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery|An antiforgery cookie token was reused. 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Task}/{action=TaskForm}/{id?} for address (id=[30010],action=[UpdateTaskForm],controller=[Task]) 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Task}/{action=TaskForm}/{id?} for Route: {controller=Task}/{action=TaskForm}/{id?} resulting in /Task/UpdateTaskForm/30010 and  
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Task}/{action=TaskForm}/{id?} with result /Task/UpdateTaskForm/30010 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery|An antiforgery cookie token was reused. 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Task}/{action=TaskForm}/{id?} for address (id=[30012],action=[Delete],controller=[Task]) 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Task}/{action=TaskForm}/{id?} for Route: {controller=Task}/{action=TaskForm}/{id?} resulting in /Task/Delete/30012 and  
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Task}/{action=TaskForm}/{id?} with result /Task/Delete/30012 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery|An antiforgery cookie token was reused. 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Task}/{action=TaskForm}/{id?} for address (id=[30012],action=[EndTask],controller=[Task]) 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Task}/{action=TaskForm}/{id?} for Route: {controller=Task}/{action=TaskForm}/{id?} resulting in /Task/EndTask/30012 and  
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Task}/{action=TaskForm}/{id?} with result /Task/EndTask/30012 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery|An antiforgery cookie token was reused. 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Task}/{action=TaskForm}/{id?} for address (id=[30012],action=[UpdateTaskForm],controller=[Task]) 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Task}/{action=TaskForm}/{id?} for Route: {controller=Task}/{action=TaskForm}/{id?} resulting in /Task/UpdateTaskForm/30012 and  
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Task}/{action=TaskForm}/{id?} with result /Task/UpdateTaskForm/30012 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery|An antiforgery cookie token was reused. 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Task}/{action=TaskForm}/{id?} for address (id=[30015],action=[Delete],controller=[Task]) 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Task}/{action=TaskForm}/{id?} for Route: {controller=Task}/{action=TaskForm}/{id?} resulting in /Task/Delete/30015 and  
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Task}/{action=TaskForm}/{id?} with result /Task/Delete/30015 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery|An antiforgery cookie token was reused. 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Task}/{action=TaskForm}/{id?} for address (id=[30015],action=[EndTask],controller=[Task]) 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Task}/{action=TaskForm}/{id?} for Route: {controller=Task}/{action=TaskForm}/{id?} resulting in /Task/EndTask/30015 and  
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Task}/{action=TaskForm}/{id?} with result /Task/EndTask/30015 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery|An antiforgery cookie token was reused. 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Task}/{action=TaskForm}/{id?} for address (id=[30015],action=[UpdateTaskForm],controller=[Task]) 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Task}/{action=TaskForm}/{id?} for Route: {controller=Task}/{action=TaskForm}/{id?} resulting in /Task/UpdateTaskForm/30015 and  
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Task}/{action=TaskForm}/{id?} with result /Task/UpdateTaskForm/30015 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery|An antiforgery cookie token was reused. 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Task}/{action=TaskForm}/{id?} for address (id=[40015],action=[Delete],controller=[Task]) 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Task}/{action=TaskForm}/{id?} for Route: {controller=Task}/{action=TaskForm}/{id?} resulting in /Task/Delete/40015 and  
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Task}/{action=TaskForm}/{id?} with result /Task/Delete/40015 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery|An antiforgery cookie token was reused. 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Task}/{action=TaskForm}/{id?} for address (id=[40015],action=[EndTask],controller=[Task]) 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Task}/{action=TaskForm}/{id?} for Route: {controller=Task}/{action=TaskForm}/{id?} resulting in /Task/EndTask/40015 and  
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Task}/{action=TaskForm}/{id?} with result /Task/EndTask/40015 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery|An antiforgery cookie token was reused. 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Task}/{action=TaskForm}/{id?} for address (id=[40015],action=[UpdateTaskForm],controller=[Task]) 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Task}/{action=TaskForm}/{id?} for Route: {controller=Task}/{action=TaskForm}/{id?} resulting in /Task/UpdateTaskForm/40015 and  
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Task}/{action=TaskForm}/{id?} with result /Task/UpdateTaskForm/40015 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery|An antiforgery cookie token was reused. 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Task}/{action=TaskForm}/{id?} for address (id=[40017],action=[Delete],controller=[Task]) 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Task}/{action=TaskForm}/{id?} for Route: {controller=Task}/{action=TaskForm}/{id?} resulting in /Task/Delete/40017 and  
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Task}/{action=TaskForm}/{id?} with result /Task/Delete/40017 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery|An antiforgery cookie token was reused. 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Task}/{action=TaskForm}/{id?} for address (id=[40017],action=[EndTask],controller=[Task]) 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Task}/{action=TaskForm}/{id?} for Route: {controller=Task}/{action=TaskForm}/{id?} resulting in /Task/EndTask/40017 and  
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Task}/{action=TaskForm}/{id?} with result /Task/EndTask/40017 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery|An antiforgery cookie token was reused. 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Task}/{action=TaskForm}/{id?} for address (id=[40017],action=[UpdateTaskForm],controller=[Task]) 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Task}/{action=TaskForm}/{id?} for Route: {controller=Task}/{action=TaskForm}/{id?} resulting in /Task/UpdateTaskForm/40017 and  
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Task}/{action=TaskForm}/{id?} with result /Task/UpdateTaskForm/40017 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery|An antiforgery cookie token was reused. 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Task}/{action=TaskForm}/{id?} for address (id=[40019],action=[Delete],controller=[Task]) 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Task}/{action=TaskForm}/{id?} for Route: {controller=Task}/{action=TaskForm}/{id?} resulting in /Task/Delete/40019 and  
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Task}/{action=TaskForm}/{id?} with result /Task/Delete/40019 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery|An antiforgery cookie token was reused. 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Task}/{action=TaskForm}/{id?} for address (id=[40019],action=[EndTask],controller=[Task]) 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Task}/{action=TaskForm}/{id?} for Route: {controller=Task}/{action=TaskForm}/{id?} resulting in /Task/EndTask/40019 and  
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Task}/{action=TaskForm}/{id?} with result /Task/EndTask/40019 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery|An antiforgery cookie token was reused. 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Task}/{action=TaskForm}/{id?} for address (id=[40019],action=[UpdateTaskForm],controller=[Task]) 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Task}/{action=TaskForm}/{id?} for Route: {controller=Task}/{action=TaskForm}/{id?} resulting in /Task/UpdateTaskForm/40019 and  
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Task}/{action=TaskForm}/{id?} with result /Task/UpdateTaskForm/40019 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery|An antiforgery cookie token was reused. 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'FirstAppDbContext' started tracking 'TaskEntity' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values. 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Task}/{action=TaskForm}/{id?} for address (id=[60017],action=[Delete],controller=[Task]) 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Task}/{action=TaskForm}/{id?} for Route: {controller=Task}/{action=TaskForm}/{id?} resulting in /Task/Delete/60017 and  
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Task}/{action=TaskForm}/{id?} with result /Task/Delete/60017 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery|An antiforgery cookie token was reused. 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Task}/{action=TaskForm}/{id?} for address (id=[60017],action=[EndTask],controller=[Task]) 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Task}/{action=TaskForm}/{id?} for Route: {controller=Task}/{action=TaskForm}/{id?} resulting in /Task/EndTask/60017 and  
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Task}/{action=TaskForm}/{id?} with result /Task/EndTask/60017 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery|An antiforgery cookie token was reused. 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Task}/{action=TaskForm}/{id?} for address (id=[60017],action=[UpdateTaskForm],controller=[Task]) 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Task}/{action=TaskForm}/{id?} for Route: {controller=Task}/{action=TaskForm}/{id?} resulting in /Task/UpdateTaskForm/60017 and  
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Task}/{action=TaskForm}/{id?} with result /Task/UpdateTaskForm/60017 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery|An antiforgery cookie token was reused. 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'ToDoList' on server 'localhost\LAVENSQL'. 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'ToDoList' on server 'localhost\LAVENSQL' is being disposed after spending 23ms reading results. 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'ToDoList' on server 'localhost\LAVENSQL'. 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'ToDoList' on server 'localhost\LAVENSQL' (0ms). 
+2023-09-12 17:41:37.4593|0|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RazorViewEngine|View lookup cache miss for view '_Layout' in controller 'Task'. 
+2023-09-12 17:41:37.4593|0|TRACE|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Could not find a file for view at path '/Views/Task/_Layout.cshtml'. 
+2023-09-12 17:41:37.4593|0|TRACE|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Located compiled view for view at path '/Views/Shared/_Layout.cshtml'. 
+2023-09-12 17:41:37.4593|0|TRACE|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Invalidating compiled view at path '/Views/Shared/_Layout.cshtml' with a file since the checksum did not match. 
+2023-09-12 17:41:37.6009|0|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Compilation of the generated code for the Razor file at 'E:\VS2022\ToDoList\ToDoList\Views\Shared\_Layout.cshtml' started. 
+2023-09-12 17:41:37.7306|0|DEBUG|Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.RuntimeViewCompiler|Compilation of the generated code for the Razor file at 'E:\VS2022\ToDoList\ToDoList\Views\Shared\_Layout.cshtml' completed in 129.6292ms. 
+2023-09-12 17:41:37.7488|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Task}/{action=TaskForm}/{id?} for address (area=[],action=[TaskForm],controller=[Task]) 
+2023-09-12 17:41:37.7488|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Task}/{action=TaskForm}/{id?} for Route: {controller=Task}/{action=TaskForm}/{id?} resulting in  and  
+2023-09-12 17:41:37.7488|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Task}/{action=TaskForm}/{id?} with result / 
+2023-09-12 17:41:37.7488|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Task}/{action=TaskForm}/{id?} for address (area=[],action=[TaskForm],controller=[Task]) 
+2023-09-12 17:41:37.7488|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Task}/{action=TaskForm}/{id?} for Route: {controller=Task}/{action=TaskForm}/{id?} resulting in  and  
+2023-09-12 17:41:37.7488|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Task}/{action=TaskForm}/{id?} with result / 
+2023-09-12 17:41:37.7488|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Task}/{action=TaskForm}/{id?} for address (area=[],action=[ProfileForm],controller=[Profile]) 
+2023-09-12 17:41:37.7488|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Task}/{action=TaskForm}/{id?} for Route: {controller=Task}/{action=TaskForm}/{id?} resulting in /Profile/ProfileForm and  
+2023-09-12 17:41:37.7488|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Task}/{action=TaskForm}/{id?} with result /Profile/ProfileForm 
+2023-09-12 17:41:37.7538|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Found the endpoints Route: {controller=Task}/{action=TaskForm}/{id?} for address (action=[Create],controller=[Task]) 
+2023-09-12 17:41:37.7538|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Successfully processed template {controller=Task}/{action=TaskForm}/{id?} for Route: {controller=Task}/{action=TaskForm}/{id?} resulting in /Task/Create and  
+2023-09-12 17:41:37.7538|0|DEBUG|Microsoft.AspNetCore.Routing.DefaultLinkGenerator|Link generation succeeded for endpoints Route: {controller=Task}/{action=TaskForm}/{id?} with result /Task/Create 
+2023-09-12 17:41:37.7752|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending HEADERS frame for stream ID 1 with length 104 and flags END_HEADERS. 
+2023-09-12 17:41:37.7752|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 1 with length 16384 and flags NONE. 
+2023-09-12 17:41:37.7752|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 1 with length 10285 and flags NONE. 
+2023-09-12 17:41:37.7841|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0. 
+2023-09-12 17:41:37.7841|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" received WINDOW_UPDATE frame for stream ID 1 with length 4 and flags 0x0. 
+2023-09-12 17:41:37.7841|0|INFO|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|Executed ViewResult - view TaskForm executed in 4343.2791ms. 
+2023-09-12 17:41:37.7841|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ViewResult. 
+2023-09-12 17:41:37.7841|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-09-12 17:41:37.7841|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-09-12 17:41:37.7841|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-09-12 17:41:37.7841|0|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter. 
+2023-09-12 17:41:37.7841|0|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action ToDoList.Controllers.TaskController.TaskForm (ToDoList) in 6057.7508ms 
+2023-09-12 17:41:37.7841|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'ToDoList.Controllers.TaskController.TaskForm (ToDoList)' 
+2023-09-12 17:41:37.7841|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM. 
+2023-09-12 17:41:37.7841|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" received HEADERS frame for stream ID 3 with length 112 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-09-12 17:41:37.7841|0|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'FirstAppDbContext' disposed. 
+2023-09-12 17:41:37.7841|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7214/lib/bootstrap/dist/css/bootstrap.min.css - - 
+2023-09-12 17:41:37.7841|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-09-12 17:41:37.8030|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2023-09-12 17:41:37.8030|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" received HEADERS frame for stream ID 5 with length 74 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-09-12 17:41:37.8030|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7214/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - - 
+2023-09-12 17:41:37.8030|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-09-12 17:41:37.8030|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'ToDoList' on server 'localhost\LAVENSQL'. 
+2023-09-12 17:41:37.8030|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2023-09-12 17:41:37.8030|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" received HEADERS frame for stream ID 7 with length 39 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-09-12 17:41:37.8030|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7214/css/github.css - - 
+2023-09-12 17:41:37.8030|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-09-12 17:41:37.8030|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2023-09-12 17:41:37.8030|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" received HEADERS frame for stream ID 9 with length 39 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-09-12 17:41:37.8030|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" received HEADERS frame for stream ID 11 with length 80 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-09-12 17:41:37.8030|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7214/css/layout.css - - 
+2023-09-12 17:41:37.8030|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" received HEADERS frame for stream ID 13 with length 44 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-09-12 17:41:37.8030|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-09-12 17:41:37.8030|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7214/ToDoList.styles.css?v=n_2v7UnPHZx-XabxqOVfWZ4lPbbZ35emJeEcqtsFE_s - - 
+2023-09-12 17:41:37.8030|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" received HEADERS frame for stream ID 15 with length 44 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-09-12 17:41:37.8030|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-09-12 17:41:37.8030|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2023-09-12 17:41:37.8030|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2023-09-12 17:41:37.8030|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" received HEADERS frame for stream ID 17 with length 48 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-09-12 17:41:37.8030|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" received HEADERS frame for stream ID 19 with length 61 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-09-12 17:41:37.8030|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" received HEADERS frame for stream ID 21 with length 61 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-09-12 17:41:37.8030|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" received HEADERS frame for stream ID 23 with length 73 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-09-12 17:41:37.8030|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7214/css/StandartStyle.css - - 
+2023-09-12 17:41:37.8030|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-09-12 17:41:37.8030|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7214/css/Task/TaskForm.css - - 
+2023-09-12 17:41:37.8030|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-09-12 17:41:37.8030|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2023-09-12 17:41:37.8030|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2023-09-12 17:41:37.8494|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7214/css/Task/CompletedTasks.css - - 
+2023-09-12 17:41:37.8494|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-09-12 17:41:37.8494|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2023-09-12 17:41:37.8494|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7214/lib/jquery/dist/jquery.min.js - - 
+2023-09-12 17:41:37.8494|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-09-12 17:41:37.8494|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2023-09-12 17:41:37.8809|0|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (49ms). 
+2023-09-12 17:41:37.8809|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7214/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - 
+2023-09-12 17:41:37.8809|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-09-12 17:41:37.8809|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2023-09-12 17:41:37.8809|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7214/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - 
+2023-09-12 17:41:37.8809|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-09-12 17:41:37.8809|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2023-09-12 17:41:37.8954|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7214/ - - - 200 - text/html;+charset=utf-8 6253.2376ms 
+2023-09-12 17:41:37.8954|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending HEADERS frame for stream ID 7 with length 76 and flags END_HEADERS. 
+2023-09-12 17:41:37.8954|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 7 with length 757 and flags NONE. 
+2023-09-12 17:41:37.8954|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending HEADERS frame for stream ID 15 with length 61 and flags END_HEADERS. 
+2023-09-12 17:41:37.8954|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 15 with length 272 and flags NONE. 
+2023-09-12 17:41:37.8954|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending HEADERS frame for stream ID 23 with length 77 and flags END_HEADERS. 
+2023-09-12 17:41:37.8954|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 23 with length 230 and flags NONE. 
+2023-09-12 17:41:37.8954|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending HEADERS frame for stream ID 17 with length 62 and flags END_HEADERS. 
+2023-09-12 17:41:37.8954|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 17 with length 1939 and flags NONE. 
+2023-09-12 17:41:37.8954|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending HEADERS frame for stream ID 9 with length 61 and flags END_HEADERS. 
+2023-09-12 17:41:37.8954|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 9 with length 827 and flags NONE. 
+2023-09-12 17:41:37.8954|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending HEADERS frame for stream ID 13 with length 62 and flags END_HEADERS. 
+2023-09-12 17:41:37.8954|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 13 with length 9560 and flags NONE. 
+2023-09-12 17:41:37.8954|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending HEADERS frame for stream ID 5 with length 31 and flags END_HEADERS. 
+2023-09-12 17:41:37.8954|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 5 with length 362 and flags NONE. 
+2023-09-12 17:41:37.8954|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending HEADERS frame for stream ID 11 with length 32 and flags END_HEADERS. 
+2023-09-12 17:41:37.8954|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 11 with length 1125 and flags NONE. 
+2023-09-12 17:41:37.8954|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending HEADERS frame for stream ID 3 with length 34 and flags END_HEADERS. 
+2023-09-12 17:41:37.8954|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 3 with length 16384 and flags NONE. 
+2023-09-12 17:41:37.8954|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending HEADERS frame for stream ID 21 with length 33 and flags END_HEADERS. 
+2023-09-12 17:41:37.8954|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 21 with length 16384 and flags NONE. 
+2023-09-12 17:41:37.8954|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending HEADERS frame for stream ID 19 with length 33 and flags END_HEADERS. 
+2023-09-12 17:41:37.8954|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 19 with length 16384 and flags NONE. 
+2023-09-12 17:41:37.8954|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 3 with length 16384 and flags NONE. 
+2023-09-12 17:41:37.8954|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 21 with length 16384 and flags NONE. 
+2023-09-12 17:41:37.8954|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 19 with length 16384 and flags NONE. 
+2023-09-12 17:41:37.8954|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 3 with length 16384 and flags NONE. 
+2023-09-12 17:41:37.8954|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 21 with length 16384 and flags NONE. 
+2023-09-12 17:41:37.8954|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 19 with length 16384 and flags NONE. 
+2023-09-12 17:41:37.9090|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 3 with length 16384 and flags NONE. 
+2023-09-12 17:41:37.9090|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 21 with length 16384 and flags NONE. 
+2023-09-12 17:41:37.9090|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 19 with length 16384 and flags NONE. 
+2023-09-12 17:41:37.9090|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 3 with length 16384 and flags NONE. 
+2023-09-12 17:41:37.9090|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 21 with length 12938 and flags NONE. 
+2023-09-12 17:41:37.9090|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 19 with length 16384 and flags NONE. 
+2023-09-12 17:41:37.9090|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 3 with length 16384 and flags NONE. 
+2023-09-12 17:41:37.9090|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 19 with length 7583 and flags NONE. 
+2023-09-12 17:41:37.9090|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 3 with length 16384 and flags NONE. 
+2023-09-12 17:41:37.9090|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 3 with length 16384 and flags NONE. 
+2023-09-12 17:41:37.9090|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 3 with length 16384 and flags NONE. 
+2023-09-12 17:41:37.9090|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 3 with length 15270 and flags NONE. 
+2023-09-12 17:41:37.9090|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'E:\VS2022\ToDoList\ToDoList\wwwroot\lib\jquery\dist\jquery.min.js' 
+2023-09-12 17:41:37.9090|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/ToDoList.styles.css'. Physical path: 'E:\VS2022\ToDoList\ToDoList\obj\Debug\net7.0\scopedcss\bundle\ToDoList.styles.css' 
+2023-09-12 17:41:37.9090|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/site.css'. Physical path: 'E:\VS2022\ToDoList\ToDoList\wwwroot\css\site.css' 
+2023-09-12 17:41:37.9090|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/js/site.js'. Physical path: 'E:\VS2022\ToDoList\ToDoList\wwwroot\js\site.js' 
+2023-09-12 17:41:37.9090|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'E:\VS2022\ToDoList\ToDoList\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js' 
+2023-09-12 17:41:37.9090|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'E:\VS2022\ToDoList\ToDoList\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css' 
+2023-09-12 17:41:37.9090|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/Task/CompletedTasks.css'. Physical path: 'E:\VS2022\ToDoList\ToDoList\wwwroot\css\Task\CompletedTasks.css' 
+2023-09-12 17:41:37.9090|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/StandartStyle.css'. Physical path: 'E:\VS2022\ToDoList\ToDoList\wwwroot\css\StandartStyle.css' 
+2023-09-12 17:41:37.9090|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/Task/TaskForm.css'. Physical path: 'E:\VS2022\ToDoList\ToDoList\wwwroot\css\Task\TaskForm.css' 
+2023-09-12 17:41:37.9090|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/layout.css'. Physical path: 'E:\VS2022\ToDoList\ToDoList\wwwroot\css\layout.css' 
+2023-09-12 17:41:37.9090|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/css/github.css'. Physical path: 'E:\VS2022\ToDoList\ToDoList\wwwroot\css\github.css' 
+2023-09-12 17:41:37.9090|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 15 with length 0 and flags END_STREAM. 
+2023-09-12 17:41:37.9090|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 13 with length 0 and flags END_STREAM. 
+2023-09-12 17:41:37.9090|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM. 
+2023-09-12 17:41:37.9090|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7214/css/Task/TaskForm.css - - - 200 9560 text/css 101.7105ms 
+2023-09-12 17:41:37.9090|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7214/ToDoList.styles.css?v=n_2v7UnPHZx-XabxqOVfWZ4lPbbZ35emJeEcqtsFE_s - - - 200 1125 text/css 106.7135ms 
+2023-09-12 17:41:37.9090|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7214/css/Task/CompletedTasks.css - - - 200 1939 text/css 63.4183ms 
+2023-09-12 17:41:37.9090|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7214/lib/jquery/dist/jquery.min.js - - - 200 89503 text/javascript 58.2682ms 
+2023-09-12 17:41:37.9090|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7214/css/layout.css - - - 200 827 text/css 106.8014ms 
+2023-09-12 17:41:37.9090|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7214/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - - - 200 362 text/css 109.3387ms 
+2023-09-12 17:41:37.9090|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7214/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78474 text/javascript 31.4995ms 
+2023-09-12 17:41:37.9090|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 11 with length 0 and flags END_STREAM. 
+2023-09-12 17:41:37.9090|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7214/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 text/javascript 21.9279ms 
+2023-09-12 17:41:37.9090|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7214/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162726 text/css 113.4969ms 
+2023-09-12 17:41:37.9090|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7214/css/StandartStyle.css - - - 200 272 text/css 101.8148ms 
+2023-09-12 17:41:37.9090|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7214/css/github.css - - - 200 757 text/css 108.2033ms 
+2023-09-12 17:41:37.9090|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM. 
+2023-09-12 17:41:37.9090|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 21 with length 0 and flags END_STREAM. 
+2023-09-12 17:41:37.9090|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM. 
+2023-09-12 17:41:37.9090|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 23 with length 0 and flags END_STREAM. 
+2023-09-12 17:41:37.9090|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 17 with length 0 and flags END_STREAM. 
+2023-09-12 17:41:37.9090|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 19 with length 0 and flags END_STREAM. 
+2023-09-12 17:41:37.9090|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM. 
+2023-09-12 17:41:38.0728|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" received HEADERS frame for stream ID 25 with length 85 and flags END_STREAM, END_HEADERS, PRIORITY. 
+2023-09-12 17:41:38.0728|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7214/favicon.ico - - 
+2023-09-12 17:41:38.0728|0|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed. 
+2023-09-12 17:41:38.0728|0|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty. 
+2023-09-12 17:41:38.0900|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending HEADERS frame for stream ID 25 with length 75 and flags END_HEADERS. 
+2023-09-12 17:41:38.0900|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 25 with length 5430 and flags NONE. 
+2023-09-12 17:41:38.0900|0|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon.ico'. Physical path: 'E:\VS2022\ToDoList\ToDoList\wwwroot\favicon.ico' 
+2023-09-12 17:41:38.0900|0|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" sending DATA frame for stream ID 25 with length 0 and flags END_STREAM. 
+2023-09-12 17:41:38.0900|0|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7214/favicon.ico - - - 200 5430 image/x-icon 14.1311ms 
+2023-09-12 17:42:59.2316|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTJGKQP7TGP" received FIN. 
+2023-09-12 17:42:59.2316|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTJGKQP7TGP" is closed. The last processed stream ID was 25. 
+2023-09-12 17:42:59.2316|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTJGKQP7TGP" sending FIN because: "The client closed the connection." 
+2023-09-12 17:42:59.2316|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|The connection queue processing loop for 0HMTJGKQP7TGP completed. 
+2023-09-12 17:42:59.2407|0|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTJGKQP7TGP" stopped. 

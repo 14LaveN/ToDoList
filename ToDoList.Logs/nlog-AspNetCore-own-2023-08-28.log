@@ -1,0 +1,417 @@
+2023-08-28 16:17:58.2381|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:17:58.2566|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:17:58.2566|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 16:17:59.8165|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:17:59.8165|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 16:17:59 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:18:20.5204|0|INFO|ToDoList.Service.Implementations.AccountService|Request for login a user: Lavenka |url: https://localhost/Account/Login|action: Login|ToDoList.Service.Implementations.AccountService.Login
+2023-08-28 16:18:20.7575|0|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'Login' was not found. Searched locations: /Views/Account/Login.cshtml, /Views/Shared/Login.cshtml |url: https://localhost/Account/Login|action: Login|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor+Log.ViewNotFound
+2023-08-28 16:18:20.7695|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The view 'Login' was not found. The following locations were searched:
+/Views/Account/Login.cshtml
+/Views/Shared/Login.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/Account/Login|action: Login|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-08-28 16:18:23.0347|0|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'AboutForm' was not found. Searched locations: /Views/About/AboutForm.cshtml, /Views/Shared/AboutForm.cshtml |url: https://localhost/About/AboutForm|action: AboutForm|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor+Log.ViewNotFound
+2023-08-28 16:18:23.0347|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The view 'AboutForm' was not found. The following locations were searched:
+/Views/About/AboutForm.cshtml
+/Views/Shared/AboutForm.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/About/AboutForm|action: AboutForm|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-08-28 16:18:26.6625|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:18:26.6625|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 16:18:26 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:18:29.6460|0|WARN|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Unable to configure browser refresh script injection on the response. Consider manually adding '<script src="/_framework/aspnetcore-browser-refresh.js"></script>' to the body of the page. |url: https://localhost/Account/RegisterForm|action: RegisterForm|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync
+2023-08-28 16:18:40.2100|0|INFO|ToDoList.Service.Implementations.AccountService|Request for register a user: Lavenka |url: https://localhost/Account/Register|action: Register|ToDoList.Service.Implementations.AccountService.Register
+2023-08-28 16:18:55.6350|0|INFO|ToDoList.Service.Implementations.AccountService|Request for login a user: Lavenka |url: https://localhost/Account/Login|action: Login|ToDoList.Service.Implementations.AccountService.Login
+2023-08-28 16:18:55.6446|0|INFO|ToDoList.Service.Implementations.AccountService|User logined: Lavenka |url: https://localhost/Account/Login|action: Login|ToDoList.Service.Implementations.AccountService.Login
+2023-08-28 16:18:55.6446|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:18:55.6604|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 16:18:55 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:19:01.2471|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:19:01.2471|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 16:19:01 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:24:52.5364|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:24:52.5523|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:24:52.5523|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 16:24:53.4223|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:24:53.4260|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 16:24:53 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:25:44.8955|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:25:44.9109|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:25:44.9109|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 16:25:45.7705|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:25:45.7705|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 16:25:45 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:28:06.2542|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:28:06.2542|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:28:06.2542|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 16:28:07.1567|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:28:07.1608|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 16:28:07 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:28:42.2891|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:28:42.3041|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:28:42.3041|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 16:28:43.2196|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:28:43.2229|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 16:28:43 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:29:14.6319|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:29:14.6499|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:29:14.6499|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 16:29:15.5415|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:29:15.5415|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 16:29:15 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:29:41.6047|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:29:41.6137|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 16:29:41 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:30:33.6190|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:30:33.6341|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:30:33.6341|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 16:30:34.4800|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:30:34.4800|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 16:30:34 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:33:24.7272|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:33:24.7417|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:33:24.7417|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 16:33:25.6106|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:33:25.6138|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 16:33:25 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:36:28.8648|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:36:28.8830|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:36:28.8830|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 16:36:29.7579|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:36:29.7579|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 16:36:29 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:37:26.7237|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:37:26.7237|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:37:26.7237|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 16:37:27.5980|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:37:27.5980|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 16:37:27 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:37:56.4673|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:37:56.4828|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:37:56.4828|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 16:37:57.3842|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:37:57.3842|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 16:37:57 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:39:30.8167|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:39:30.8167|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:39:30.8167|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 16:39:31.6820|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:39:31.6820|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 16:39:31 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:42:54.9963|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:42:55.0132|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:42:55.0132|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 16:42:55.8742|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:42:55.8820|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 16:42:55 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:45:10.1510|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:45:10.1660|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:45:10.1660|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 16:45:11.0974|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:45:11.0974|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 16:45:11 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:45:30.1412|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:45:30.1576|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:45:30.1576|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 16:45:31.0223|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:45:31.0223|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 16:45:31 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:49:26.0367|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:49:26.0518|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:49:26.0518|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 16:49:26.9175|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:49:26.9264|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 16:49:26 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:51:11.2401|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:51:11.2401|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:51:11.2401|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 16:51:12.1162|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:51:12.1162|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 16:51:12 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:52:58.1983|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:52:58.2150|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:52:58.2150|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 16:52:59.0924|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:52:59.0995|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 16:52:59 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:53:41.3245|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:53:41.3391|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:53:41.3391|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 16:53:42.1877|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:53:42.1909|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 16:53:42 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:54:57.3844|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:54:57.3993|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:54:57.3993|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 16:54:58.3103|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:54:58.3181|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 16:54:58 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:56:06.8888|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:56:06.9042|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 16:56:06.9042|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 16:56:07.7594|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 16:56:07.7594|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 16:56:07 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:00:01.8814|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 17:00:01.9014|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 17:00:01.9014|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 17:00:02.8017|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:00:02.8017|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 17:00:02 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:00:11.0822|0|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'AboutForm' was not found. Searched locations: /Views/About/AboutForm.cshtml, /Views/Shared/AboutForm.cshtml |url: https://localhost/About/AboutForm|action: AboutForm|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor+Log.ViewNotFound
+2023-08-28 17:00:11.0822|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The view 'AboutForm' was not found. The following locations were searched:
+/Views/About/AboutForm.cshtml
+/Views/Shared/AboutForm.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/About/AboutForm|action: AboutForm|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-08-28 17:07:02.9432|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 17:07:02.9712|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 17:07:02.9712|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 17:07:03.9644|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:07:03.9644|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 17:07:03 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:09:09.6406|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 17:09:09.6562|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 17:09:09.6562|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 17:09:10.5081|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:09:10.5081|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 17:09:10 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:09:46.3715|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 17:09:46.3892|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 17:09:46.3892|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 17:09:47.3016|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:09:47.3016|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 17:09:47 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:10:13.2545|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 17:10:13.2698|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 17:10:13.2698|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 17:10:14.1963|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:10:14.1963|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 17:10:14 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:12:44.6303|0|INFO|ToDoList.Service.Implementations.TaskService|Request for create a task - Как сделать лоха |url: https://localhost/Task/Create|action: Create|ToDoList.Service.Implementations.TaskService.Create
+2023-08-28 17:12:45.0074|0|INFO|ToDoList.Service.Implementations.TaskService|Task created: Как сделать лоха 28.08.2023 17:12:44 |url: https://localhost/Task/Create|action: Create|ToDoList.Service.Implementations.TaskService.Create
+2023-08-28 17:12:47.2279|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:12:47.2279|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 17:12:47 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:18:42.5850|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 17:18:42.5995|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 17:18:42.5995|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 17:18:43.4614|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:18:43.4614|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 17:18:43 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:23:11.5664|0|INFO|ToDoList.Service.Implementations.TaskService|Request for end a task - Как сделать лоха |url: https://localhost/Task/EndTask/40015|action: EndTask|ToDoList.Service.Implementations.TaskService.EndTask
+2023-08-28 17:23:11.6778|0|INFO|ToDoList.Service.Implementations.TaskService|End task: Как сделать лоха 28.08.2023 17:12:44 |url: https://localhost/Task/EndTask/40015|action: EndTask|ToDoList.Service.Implementations.TaskService.EndTask
+2023-08-28 17:23:11.7308|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:23:11.7393|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 17:23:11 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:23:30.2851|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 17:23:30.2851|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 17:23:30.2851|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 17:23:31.1924|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:23:31.1924|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 17:23:31 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:26:21.2386|0|INFO|ToDoList.Service.Implementations.TaskService|Request for create a task - dfgdghgdhdfg |url: https://localhost/Task/Create|action: Create|ToDoList.Service.Implementations.TaskService.Create
+2023-08-28 17:26:21.3796|0|INFO|ToDoList.Service.Implementations.TaskService|Task created: dfgdghgdhdfg 28.08.2023 17:26:21 |url: https://localhost/Task/Create|action: Create|ToDoList.Service.Implementations.TaskService.Create
+2023-08-28 17:26:23.0728|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:26:23.0728|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 17:26:23 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:26:26.9258|0|INFO|ToDoList.Service.Implementations.TaskService|Request for end a task - dfgdghgdhdfg |url: https://localhost/Task/EndTask/40016|action: EndTask|ToDoList.Service.Implementations.TaskService.EndTask
+2023-08-28 17:26:26.9655|0|INFO|ToDoList.Service.Implementations.TaskService|End task: dfgdghgdhdfg 28.08.2023 17:26:21 |url: https://localhost/Task/EndTask/40016|action: EndTask|ToDoList.Service.Implementations.TaskService.EndTask
+2023-08-28 17:26:26.9737|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:26:26.9737|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 17:26:26 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:29:41.2849|0|INFO|ToDoList.Service.Implementations.TaskService|Request for delete a task - dfgdghgdhdfg |url: https://localhost/Task/Delete/40016|action: Delete|ToDoList.Service.Implementations.TaskService.Delete
+2023-08-28 17:29:41.3363|0|INFO|ToDoList.Service.Implementations.TaskService|Task deleted: dfgdghgdhdfg 28.08.2023 17:26:21 |url: https://localhost/Task/Delete/40016|action: Delete|ToDoList.Service.Implementations.TaskService.Delete
+2023-08-28 17:29:41.3363|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:29:41.3473|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 17:29:41 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:32:12.6242|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 17:32:12.6419|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 17:32:12.6419|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 17:32:13.5523|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:32:13.5523|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 17:32:13 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:32:24.0990|0|ERROR|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor|The view 'AboutForm' was not found. Searched locations: /Views/About/AboutForm.cshtml, /Views/Shared/AboutForm.cshtml |url: https://localhost/About/AboutForm|action: AboutForm|Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor+Log.ViewNotFound
+2023-08-28 17:32:24.1133|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The view 'AboutForm' was not found. The following locations were searched:
+/Views/About/AboutForm.cshtml
+/Views/Shared/AboutForm.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/About/AboutForm|action: AboutForm|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-08-28 17:32:25.2542|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:32:25.2542|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 17:32:25 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:34:54.4436|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 17:34:54.4584|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 17:34:54.4584|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 17:34:55.3160|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:34:55.3160|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 17:34:55 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:36:36.0717|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 17:36:36.0888|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 17:36:36.0888|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 17:36:36.9486|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:36:36.9572|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 17:36:36 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:38:14.3792|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 17:38:14.3792|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 17:38:14.3792|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 17:38:15.2357|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:38:15.2411|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 17:38:15 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:40:06.9144|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 17:40:06.9332|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 17:40:06.9332|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 17:40:07.8430|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:40:07.8481|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 17:40:07 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:41:29.5606|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 17:41:29.5802|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 17:41:29.5802|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 17:41:30.4953|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:41:30.4953|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 17:41:30 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:42:18.7771|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 17:42:18.7771|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 17:42:18 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 18:03:26.6549|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 18:03:26.7260|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 18:03:26.7260|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 18:03:27.6597|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 18:03:27.6597|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 18:03:27 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 18:14:57.2690|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 18:14:57.2906|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 18:14:57.2906|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 18:14:58.1831|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 18:14:58.1909|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 18:14:58 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 18:15:23.9575|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 18:15:23.9731|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 18:15:23.9731|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 18:15:24.9056|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 18:15:24.9094|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 18:15:24 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 18:15:53.6404|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 18:15:53.6564|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 18:15:53.6564|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 18:15:54.5718|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 18:15:54.5718|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 18:15:54 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 18:16:16.7564|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 18:16:16.7743|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 18:16:16.7743|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 18:16:17.7063|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 18:16:17.7063|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 18:16:17 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:19:26.7937|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 21:19:26.8295|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 21:19:26.8295|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 21:19:28.3237|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:19:28.3345|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 21:19:28 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:20:17.9159|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 21:20:17.9311|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 21:20:17.9311|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 21:20:18.8944|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:20:18.8944|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 21:20:18 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:21:12.1668|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 21:21:12.1803|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 21:21:12.1803|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 21:21:13.0400|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:21:13.0400|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 21:21:13 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:22:23.7601|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 21:22:23.7743|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 21:22:23.7743|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 21:22:24.6407|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:22:24.6445|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 21:22:24 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:25:05.8932|0|INFO|ToDoList.Service.Implementations.TaskService|Request for end a task - hjsdfbbds |url: https://localhost/Task/EndTask/30015|action: EndTask|ToDoList.Service.Implementations.TaskService.EndTask
+2023-08-28 21:25:06.0518|0|INFO|ToDoList.Service.Implementations.TaskService|End task: hjsdfbbds 27.08.2023 0:55:22 |url: https://localhost/Task/EndTask/30015|action: EndTask|ToDoList.Service.Implementations.TaskService.EndTask
+2023-08-28 21:25:06.1165|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:25:06.1165|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 21:25:06 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:25:10.2079|0|INFO|ToDoList.Service.Implementations.TaskService|Request for create a task - dgfhdf |url: https://localhost/Task/Create|action: Create|ToDoList.Service.Implementations.TaskService.Create
+2023-08-28 21:25:10.3833|0|INFO|ToDoList.Service.Implementations.TaskService|Task created: dgfhdf 28.08.2023 21:25:10 |url: https://localhost/Task/Create|action: Create|ToDoList.Service.Implementations.TaskService.Create
+2023-08-28 21:25:13.2923|0|INFO|ToDoList.Service.Implementations.TaskService|Request for create a task - dgfhdf |url: https://localhost/Task/Create|action: Create|ToDoList.Service.Implementations.TaskService.Create
+2023-08-28 21:25:15.7862|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:25:15.7862|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 21:25:15 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:25:18.3310|0|INFO|ToDoList.Service.Implementations.TaskService|Request for end a task - dgfhdf |url: https://localhost/Task/EndTask/40017|action: EndTask|ToDoList.Service.Implementations.TaskService.EndTask
+2023-08-28 21:25:18.3310|0|INFO|ToDoList.Service.Implementations.TaskService|End task: dgfhdf 28.08.2023 21:25:10 |url: https://localhost/Task/EndTask/40017|action: EndTask|ToDoList.Service.Implementations.TaskService.EndTask
+2023-08-28 21:25:18.3310|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:25:18.3310|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 21:25:18 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:25:37.1128|0|INFO|ToDoList.Service.Implementations.TaskService|Request for create a task - Buy some banana |url: https://localhost/Task/Create|action: Create|ToDoList.Service.Implementations.TaskService.Create
+2023-08-28 21:25:37.1128|0|INFO|ToDoList.Service.Implementations.TaskService|Task created: Buy some banana 28.08.2023 21:25:37 |url: https://localhost/Task/Create|action: Create|ToDoList.Service.Implementations.TaskService.Create
+2023-08-28 21:25:39.3158|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:25:39.3158|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 21:25:39 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:25:41.8247|0|INFO|ToDoList.Service.Implementations.TaskService|Request for end a task - Buy some banana |url: https://localhost/Task/EndTask/40018|action: EndTask|ToDoList.Service.Implementations.TaskService.EndTask
+2023-08-28 21:25:41.8325|0|INFO|ToDoList.Service.Implementations.TaskService|End task: Buy some banana 28.08.2023 21:25:37 |url: https://localhost/Task/EndTask/40018|action: EndTask|ToDoList.Service.Implementations.TaskService.EndTask
+2023-08-28 21:25:41.8497|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:25:41.8497|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 21:25:41 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:27:23.0564|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 21:27:23.0720|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 21:27:23.0720|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 21:27:23.9920|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:27:23.9920|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 21:27:23 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:27:42.4314|0|INFO|ToDoList.Service.Implementations.TaskService|Request for create a task - gfhdfhd |url: https://localhost/Task/Create|action: Create|ToDoList.Service.Implementations.TaskService.Create
+2023-08-28 21:27:42.5820|0|INFO|ToDoList.Service.Implementations.TaskService|Task created: gfhdfhd 28.08.2023 21:27:42 |url: https://localhost/Task/Create|action: Create|ToDoList.Service.Implementations.TaskService.Create
+2023-08-28 21:27:45.2274|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:27:45.2274|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 21:27:45 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:27:51.4411|0|INFO|ToDoList.Service.Implementations.TaskService|Request for delete a task - Buy some banana |url: https://localhost/Task/Delete/40018|action: Delete|ToDoList.Service.Implementations.TaskService.Delete
+2023-08-28 21:27:51.4878|0|INFO|ToDoList.Service.Implementations.TaskService|Task deleted: Buy some banana 28.08.2023 21:25:37 |url: https://localhost/Task/Delete/40018|action: Delete|ToDoList.Service.Implementations.TaskService.Delete
+2023-08-28 21:27:51.5085|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:27:51.5085|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 21:27:51 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:27:53.9135|0|INFO|ToDoList.Service.Implementations.TaskService|Request for end a task - gfhdfhd |url: https://localhost/Task/EndTask/40019|action: EndTask|ToDoList.Service.Implementations.TaskService.EndTask
+2023-08-28 21:27:53.9264|0|INFO|ToDoList.Service.Implementations.TaskService|End task: gfhdfhd 28.08.2023 21:27:42 |url: https://localhost/Task/EndTask/40019|action: EndTask|ToDoList.Service.Implementations.TaskService.EndTask
+2023-08-28 21:27:53.9426|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:27:53.9426|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 21:27:53 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:28:27.3374|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 21:28:27.3526|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 21:28:27.3526|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 21:28:28.2355|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:28:28.2392|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 21:28:28 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:29:48.9320|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 21:29:48.9518|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 21:29:48.9518|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 21:29:49.8889|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:29:49.8967|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 21:29:49 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:32:47.5233|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 21:32:47.5378|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 21:32:47.5378|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 21:32:48.3963|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:32:48.3963|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 21:32:48 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:33:34.0815|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 21:33:34.0815|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 21:33:34.0815|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 21:33:34.9608|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:33:34.9608|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 21:33:34 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:34:39.6101|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 21:34:39.6245|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 21:34:39.6245|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 21:34:40.5035|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:34:40.5035|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 21:34:40 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:36:31.0029|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:36:31.0029|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 21:36:31 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:39:27.2296|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 21:39:27.2448|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-28 21:39:27.2448|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-28 21:39:28.1180|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-28 21:39:28.1180|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 28.08.2023 21:39:28 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll

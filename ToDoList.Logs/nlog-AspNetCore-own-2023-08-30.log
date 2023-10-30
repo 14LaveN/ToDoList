@@ -1,0 +1,389 @@
+2023-08-30 13:51:06.6625|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 13:51:06.6840|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 13:51:06.6840|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-30 13:51:08.4656|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 13:51:08.4717|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 13:51:08 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 13:51:25.9551|0|INFO|ToDoList.Service.Implementations.AccountService|Request for login a user: Lavenka |url: https://localhost/Account/Login|action: Login|ToDoList.Service.Implementations.AccountService.Login
+2023-08-30 13:51:26.1365|0|INFO|ToDoList.Service.Implementations.AccountService|User logined: Lavenka |url: https://localhost/Account/Login|action: Login|ToDoList.Service.Implementations.AccountService.Login
+2023-08-30 13:51:26.1464|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 13:51:26.1594|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 13:51:26 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 13:51:29.9099|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 13:51:29.9099|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 13:51:29 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 13:51:37.9255|0|INFO|ToDoList.Service.Implementations.TaskService|Request for update a task - ToDoList 25.08 |url: https://localhost/Task/Update/30012|action: Update|ToDoList.Service.Implementations.TaskService.Update
+2023-08-30 13:51:38.1614|0|INFO|ToDoList.Service.Implementations.TaskService|Task updated: ToDoList 25.08 25.08.2023 10:57:44 |url: https://localhost/Task/Update/30012|action: Update|ToDoList.Service.Implementations.TaskService.Update
+2023-08-30 13:51:38.1796|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 13:51:38.1796|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 13:51:38 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 13:52:00.0659|0|INFO|ToDoList.Service.Implementations.TaskService|Request for update a task - ToDoList 25.08 |url: https://localhost/Task/Update/30012|action: Update|ToDoList.Service.Implementations.TaskService.Update
+2023-08-30 13:52:00.0977|0|INFO|ToDoList.Service.Implementations.TaskService|Task updated: ToDoList 25.08 25.08.2023 10:57:44 |url: https://localhost/Task/Update/30012|action: Update|ToDoList.Service.Implementations.TaskService.Update
+2023-08-30 13:52:00.1438|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 13:52:00.1438|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 13:52:00 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:06:05.0904|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:06:05.1069|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:06:05.1069|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-30 14:06:05.9854|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:06:05.9890|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:06:05 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:07:23.7884|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:07:23.8036|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:07:23.8036|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-30 14:07:24.6661|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:07:24.6661|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:07:24 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:07:45.1185|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:07:45.1366|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:07:45.1366|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-30 14:07:46.0034|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:07:46.0034|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:07:46 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:07:48.0866|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at lambda_method60(Closure, QueryContext)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at AspNetCore.Views_Task_TaskForm.ExecuteAsync() in E:\VS2022\ToDoList\ToDoList\Views\Task\TaskForm.cshtml:line 25
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/|action: TaskForm|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-08-30 14:09:08.6479|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:09:08.6634|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:09:08.6634|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-30 14:09:09.5403|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:09:09.5562|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:09:09 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:09:11.7095|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at lambda_method60(Closure, QueryContext)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at AspNetCore.Views_Task_TaskForm.ExecuteAsync() in E:\VS2022\ToDoList\ToDoList\Views\Task\TaskForm.cshtml:line 25
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/|action: TaskForm|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-08-30 14:10:22.3093|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:10:22.3242|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:10:22.3242|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-30 14:10:23.1875|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:10:23.1919|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:10:23 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:10:25.2688|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at lambda_method60(Closure, QueryContext)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at AspNetCore.Views_Task_TaskForm.ExecuteAsync() in E:\VS2022\ToDoList\ToDoList\Views\Task\TaskForm.cshtml:line 25
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/|action: TaskForm|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-08-30 14:13:12.4411|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:13:12.4566|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:13:12.4566|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-30 14:13:13.3175|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:13:13.3175|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:13:13 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:13:15.4106|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.ThrowHelper.ThrowNoElementsException()
+   at lambda_method60(Closure, QueryContext)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at AspNetCore.Views_Task_TaskForm.ExecuteAsync() in E:\VS2022\ToDoList\ToDoList\Views\Task\TaskForm.cshtml:line 25
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/|action: TaskForm|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-08-30 14:21:47.1127|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:21:47.1307|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:21:47.1307|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-30 14:21:48.0604|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:21:48.0678|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:21:48 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:22:04.1900|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:22:04.1900|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:22:04 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:24:48.1938|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:24:48.2089|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:24:48.2089|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-30 14:24:49.0768|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:24:49.0845|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:24:49 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:24:53.2416|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/Task/UpdateTaskForm/30010|action: UpdateTaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:24:53.2416|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:24:53 |url: https://localhost/Task/UpdateTaskForm/30010|action: UpdateTaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:24:53.5029|0|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request. System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'ToDoList.Domain.Entity.TaskEntity', but this ViewDataDictionary instance requires a model item of type 'System.Linq.IQueryable`1[ToDoList.Domain.Entity.TaskEntity]'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at lambda_method91(Closure, ViewDataDictionary)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|22_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)|url: https://localhost/Task/UpdateTaskForm/30010|action: UpdateTaskForm|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke
+2023-08-30 14:25:36.1360|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:25:36.1521|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:25:36.1521|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-30 14:25:37.0714|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:25:37.0714|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:25:37 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:25:41.9304|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/Task/UpdateTaskForm/30010|action: UpdateTaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:25:41.9304|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:25:41 |url: https://localhost/Task/UpdateTaskForm/30010|action: UpdateTaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:25:55.5452|0|ERROR|ToDoList.Service.Implementations.TaskService|[TaskService.Update]: Sequence contains no elements. System.InvalidOperationException: Sequence contains no elements.
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at ToDoList.DAL.Repositories.TaskRepository.GetById(Int64 id) in E:\VS2022\ToDoList\ToDoList.DAL\Repositories\TaskRepository.cs:line 49
+   at ToDoList.Service.Implementations.TaskService.Update(CreateTaskViewModel createTaskViewModel) in E:\VS2022\ToDoList\ToDoList.Service\Implementations\TaskService.cs:line 114|url: https://localhost/Task/Update|action: Update|ToDoList.Service.Implementations.TaskService.Update
+2023-08-30 14:25:55.5537|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:25:55.5537|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:25:55 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:25:58.0423|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:25:58.0423|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:25:58 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:26:02.8423|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:26:02.8480|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:26:02 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:26:25.6460|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:26:25.6608|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:26:25.6608|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-30 14:26:26.5036|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:26:26.5036|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:26:26 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:26:31.8840|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/Task/UpdateTaskForm/30010|action: UpdateTaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:26:31.8840|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:26:31 |url: https://localhost/Task/UpdateTaskForm/30010|action: UpdateTaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:27:27.4618|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:27:27.4771|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:27:27.4771|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-30 14:27:28.3384|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:27:28.3384|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:27:28 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:27:32.9164|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/Task/UpdateTaskForm/30010|action: UpdateTaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:27:32.9164|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:27:32 |url: https://localhost/Task/UpdateTaskForm/30010|action: UpdateTaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:27:47.6926|0|ERROR|ToDoList.Service.Implementations.TaskService|[TaskService.Update]: Sequence contains no elements. System.InvalidOperationException: Sequence contains no elements.
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at ToDoList.DAL.Repositories.TaskRepository.GetById(Int64 id) in E:\VS2022\ToDoList\ToDoList.DAL\Repositories\TaskRepository.cs:line 49
+   at ToDoList.Service.Implementations.TaskService.Update(CreateTaskViewModel createTaskViewModel) in E:\VS2022\ToDoList\ToDoList.Service\Implementations\TaskService.cs:line 114|url: https://localhost/Task/Update|action: Update|ToDoList.Service.Implementations.TaskService.Update
+2023-08-30 14:28:31.8944|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:28:31.9103|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:28:31.9103|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-30 14:28:32.7866|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:28:32.7866|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:28:32 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:28:37.3487|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/Task/UpdateTaskForm/30010|action: UpdateTaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:28:37.3487|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:28:37 |url: https://localhost/Task/UpdateTaskForm/30010|action: UpdateTaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:28:47.3619|0|ERROR|ToDoList.Service.Implementations.TaskService|[TaskService.Update]: Sequence contains no elements. System.InvalidOperationException: Sequence contains no elements.
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.ShapedQueryCompilingExpressionVisitor.SingleAsync[TSource](IAsyncEnumerable`1 asyncEnumerable, CancellationToken cancellationToken)
+   at ToDoList.DAL.Repositories.TaskRepository.GetByName(String name) in E:\VS2022\ToDoList\ToDoList.DAL\Repositories\TaskRepository.cs:line 44
+   at ToDoList.Service.Implementations.TaskService.Update(CreateTaskViewModel createTaskViewModel) in E:\VS2022\ToDoList\ToDoList.Service\Implementations\TaskService.cs:line 114|url: https://localhost/Task/Update|action: Update|ToDoList.Service.Implementations.TaskService.Update
+2023-08-30 14:28:50.6275|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:28:50.6275|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:28:50 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:28:53.0658|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:28:53.0658|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:28:53 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:29:20.6912|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:29:20.7079|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:29:20.7079|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-30 14:29:21.5757|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:29:21.5830|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:29:21 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:29:35.0397|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:29:35.0544|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:29:35.0544|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-30 14:29:35.9030|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:29:35.9113|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:29:35 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:29:41.5963|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/Task/UpdateTaskForm/30010|action: UpdateTaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:29:41.5963|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:29:41 |url: https://localhost/Task/UpdateTaskForm/30010|action: UpdateTaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:33:04.5175|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:33:04.5311|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:33:04.5311|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-30 14:33:05.4072|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:33:05.4104|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:33:05 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:33:10.2856|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/Task/UpdateTaskForm/30010|action: UpdateTaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:33:10.2856|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:33:10 |url: https://localhost/Task/UpdateTaskForm/30010|action: UpdateTaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:33:20.4580|0|INFO|ToDoList.Service.Implementations.TaskService|Request for update a task - Buy lox |url: https://localhost/Task/Update|action: Update|ToDoList.Service.Implementations.TaskService.Update
+2023-08-30 14:33:22.6526|0|INFO|ToDoList.Service.Implementations.TaskService|Task updated: Buy lox 30.08.2023 14:33:21 |url: https://localhost/Task/Update|action: Update|ToDoList.Service.Implementations.TaskService.Update
+2023-08-30 14:33:23.8320|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:33:23.8320|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:33:23 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:33:28.0260|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:33:28.0260|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:33:28 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:35:06.7071|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:35:06.7253|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:35:06.7253|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-30 14:35:07.5889|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:35:07.5967|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:35:07 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:35:12.7066|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/Task/UpdateTaskForm/30011|action: UpdateTaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:35:12.7066|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:35:12 |url: https://localhost/Task/UpdateTaskForm/30011|action: UpdateTaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:35:20.2226|0|ERROR|Microsoft.EntityFrameworkCore.Update|An exception occurred in the database while saving changes for context type 'ToDoList.DAL.FirstAppDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateConcurrencyException: The database operation was expected to affect 1 row(s), but actually affected 0 row(s); data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ThrowAggregateUpdateConcurrencyExceptionAsync(RelationalDataReader reader, Int32 commandIndex, Int32 expectedRowsAffected, Int32 rowsAffected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken) Microsoft.EntityFrameworkCore.DbUpdateConcurrencyException: The database operation was expected to affect 1 row(s), but actually affected 0 row(s); data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ThrowAggregateUpdateConcurrencyExceptionAsync(RelationalDataReader reader, Int32 commandIndex, Int32 expectedRowsAffected, Int32 rowsAffected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)|url: https://localhost/Task/Update|action: Update|Microsoft.EntityFrameworkCore.Diagnostics.EventDefinition`3.Log
+2023-08-30 14:35:21.1091|0|ERROR|ToDoList.Service.Implementations.TaskService|[TaskService.Update]: The database operation was expected to affect 1 row(s), but actually affected 0 row(s); data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions. Microsoft.EntityFrameworkCore.DbUpdateConcurrencyException: The database operation was expected to affect 1 row(s), but actually affected 0 row(s); data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ThrowAggregateUpdateConcurrencyExceptionAsync(RelationalDataReader reader, Int32 commandIndex, Int32 expectedRowsAffected, Int32 rowsAffected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetWithRowsAffectedOnlyAsync(Int32 commandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at ToDoList.DAL.Repositories.TaskRepository.Update(TaskEntity entity) in E:\VS2022\ToDoList\ToDoList.DAL\Repositories\TaskRepository.cs:line 37
+   at ToDoList.Service.Implementations.TaskService.Update(CreateTaskViewModel createTaskViewModel) in E:\VS2022\ToDoList\ToDoList.Service\Implementations\TaskService.cs:line 120|url: https://localhost/Task/Update|action: Update|ToDoList.Service.Implementations.TaskService.Update
+2023-08-30 14:35:22.7414|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:35:22.7414|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:35:22 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:35:24.6384|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:35:24.6436|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:35:24 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:36:30.1923|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:36:30.2070|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:36:30.2070|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-30 14:36:31.0716|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:36:31.0716|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:36:31 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:36:36.0058|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/Task/UpdateTaskForm/30012|action: UpdateTaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:36:36.0058|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:36:36 |url: https://localhost/Task/UpdateTaskForm/30012|action: UpdateTaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:39:01.5999|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:39:01.6160|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:39:01.6160|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-30 14:39:02.5080|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:39:02.5080|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:39:02 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:39:12.3019|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/Task/UpdateTaskForm/30012|action: UpdateTaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:39:12.3019|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:39:12 |url: https://localhost/Task/UpdateTaskForm/30012|action: UpdateTaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:39:19.2905|0|INFO|ToDoList.Service.Implementations.TaskService|Request for update a task - ToDoList 25.08 |url: https://localhost/Task/Update|action: Update|ToDoList.Service.Implementations.TaskService.Update
+2023-08-30 14:39:21.8214|0|INFO|ToDoList.Service.Implementations.TaskService|Task updated: ToDoList 25.08 30.08.2023 14:39:20 |url: https://localhost/Task/Update|action: Update|ToDoList.Service.Implementations.TaskService.Update
+2023-08-30 14:39:23.2561|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:39:23.2561|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:39:23 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:39:26.1629|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:39:26.1629|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:39:26 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:39:37.0992|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/Task/UpdateTaskForm/30010|action: UpdateTaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:39:37.0992|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:39:37 |url: https://localhost/Task/UpdateTaskForm/30010|action: UpdateTaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:39:48.3244|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:39:48.3415|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:39:48.3415|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-30 14:39:49.1916|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:39:49.1916|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:39:49 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:39:53.3805|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/Task/UpdateTaskForm/30010|action: UpdateTaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:39:53.3805|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:39:53 |url: https://localhost/Task/UpdateTaskForm/30010|action: UpdateTaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:40:00.8468|0|INFO|ToDoList.Service.Implementations.TaskService|Request for update a task - Buy lox |url: https://localhost/Task/Update|action: Update|ToDoList.Service.Implementations.TaskService.Update
+2023-08-30 14:40:00.8468|0|INFO|ToDoList.Service.Implementations.TaskService|Task updated: Buy lox 30.08.2023 14:40:00 |url: https://localhost/Task/Update|action: Update|ToDoList.Service.Implementations.TaskService.Update
+2023-08-30 14:40:00.8468|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:40:00.8628|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:40:00 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:40:02.1308|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:40:02.1443|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:40:02 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:40:15.9568|0|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down. |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:40:15.9729|0|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development |url: |action: |Microsoft.Extensions.Hosting.Internal.ConsoleLifetime.OnApplicationStarted
+2023-08-30 14:40:15.9729|0|INFO|Microsoft.Hosting.Lifetime|Content root path: E:\VS2022\ToDoList\ToDoList |url: |action: |Microsoft.Extensions.Hosting.Internal.ApplicationLifetime.NotifyStarted
+2023-08-30 14:40:16.8157|0|INFO|ToDoList.Service.Implementations.TaskService|Request for get all tasks |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll
+2023-08-30 14:40:16.8157|0|INFO|ToDoList.Service.Implementations.TaskService|Get tasks: 30.08.2023 14:40:16 |url: https://localhost/|action: TaskForm|ToDoList.Service.Implementations.TaskService.GetAll

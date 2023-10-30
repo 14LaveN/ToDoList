@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Authentication.Cookies;
+﻿using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 using NLog.Web;
 using ToDoList;
@@ -27,7 +27,9 @@ builder.Services.InitializeServices();
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<FirstAppDbContext>(options =>
 {
-    options.UseSqlServer(connectionString);
+    options.UseSqlServer(connectionString)
+        .LogTo(Console.WriteLine, LogLevel.Information)
+        .ConfigureWarnings(warning=> warning.Throw());
 });
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)

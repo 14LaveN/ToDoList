@@ -47,7 +47,8 @@ public class TaskService : ITaskService
                 Author = createTaskViewModel.Author,
                 IsDone = false,
                 Priority = createTaskViewModel.Priority,
-                CreationDate = DateTime.Now
+                CreationDate = DateTime.Now,
+                IsUpdateNow = false
             };
             await taskRepository.Create(task);
 
@@ -106,11 +107,15 @@ public class TaskService : ITaskService
         }
     }
 
-    public async Task<IBaseResponse<TaskEntity>> Update(long id)
+    public async Task<IBaseResponse<TaskEntity>> Update(CreateTaskViewModel createTaskViewModel)
     {
         try
         {
-            var task = await taskRepository.GetById(id);
+            var task = await taskRepository.GetByName(createTaskViewModel.Name);
+
+            task.IsUpdateNow = false;
+
+            await taskRepository.Update(task);
 
             logger.LogInformation($"Request for update a task - {task.Name}");
 
@@ -122,6 +127,13 @@ public class TaskService : ITaskService
                     StatusCode = StatusCode.TaskIsHasAlready
                 };
             }
+
+            task.Name = createTaskViewModel.Name;
+            task.Description = createTaskViewModel.Description;
+            task.Author = createTaskViewModel.Author;
+            task.Priority = createTaskViewModel.Priority;
+            task.CreationDate = DateTime.Now;
+
             await taskRepository.Update(task);
 
             logger.LogInformation($"Task updated: {task.Name} {task.CreationDate}");

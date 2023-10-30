@@ -16,8 +16,10 @@ public class TaskRepository : IBaseRepository<TaskEntity>
 
     public async Task Create(TaskEntity entity)
     {
+        await firstAppDbContext.Database.BeginTransactionAsync();
         await firstAppDbContext.Tasks.AddAsync(entity);
         await firstAppDbContext.SaveChangesAsync();
+        await firstAppDbContext.Database.CommitTransactionAsync();
     }
 
     public IQueryable<TaskEntity> GetAll()

@@ -1,18 +1,20 @@
 ﻿@using ToDoList.Domain.Entity;
 @model UserEntity
-<link rel="stylesheet" href="~/css/LoginForm.css" />
+
+<link rel="stylesheet" href="~/css/Account/LoginForm.css" />
+<link rel="stylesheet" href="~/css/StandartStyle.css" />
+<link rel="stylesheet" href="~/css/Account/ProfileForm.css" />
 
 @if(!Model.IsProfileCreated)
 {
     <form id="createProfileForm" class="form">
         <div class="title">Welcome,<br><span>sign up to continue</span></div>
-        <input type="email" value="@User.Identity.Name" placeholder="Name" name="Name" class="input">
+        <input class="inputAuthor" type="email" value="@User.Identity.Name" placeholder="Name" name="Name" class="input">
         <button id="createProfile" class="button-confirm">Let`s go →</button>
     </form>
 }
 else
 {
-    <label>@Model.Name</label>
     <form asp-controller="Account" asp-action="Logout">
         <button href="https://localhost:44333/Account/Login" class="Btn">
 
@@ -21,6 +23,9 @@ else
             <div class="text">Logout</div>
         </button>
     </form>
+    <div class="profileForm">
+        <label class="name">@Model.Name</label>
+    </div>
 }
 @section Scripts
     {

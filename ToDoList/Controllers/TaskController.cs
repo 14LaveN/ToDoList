@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using ToDoList.DAL;
 using ToDoList.Domain.Entity;
@@ -30,6 +31,17 @@ public class TaskController : Controller
         return View(taskService.GetAll().Data);
     }
 
+    public async Task<IActionResult> UpdateTaskForm(long id)
+    {
+        if (!(firstAppDbContext.Tasks.IsNullOrEmpty()))
+        {
+            var responseTasksByName = taskService.GetAll();
+            var taskById = await responseTasksByName.Data.FirstOrDefaultAsync(x => x.Id == id && x.Author == User.Identity.Name);
+            return View(taskById);
+        }
+        return View(taskService.GetAll().Data.First());
+    }
+
     [HttpPost]
     public async Task<IActionResult> Create(CreateTaskViewModel model)
     {
@@ -53,9 +65,9 @@ public class TaskController : Controller
     }
 
     [HttpPost]
-    public async Task<IActionResult> Update(long id)
+    public async Task<IActionResult> Update(CreateTaskViewModel createTaskViewModel)
     {
-        var response = await taskService.Update(id);
+        var response = await taskService.Update(createTaskViewModel);
         if (response.StatusCode == Domain.Enum.StatusCode.OK)
         {
             return RedirectToAction("TaskForm", "Task");

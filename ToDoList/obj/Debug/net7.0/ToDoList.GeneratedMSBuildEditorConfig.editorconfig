@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = E:\VS2022\ToDoList\ToDoList
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/VS2022/ToDoList/ToDoList/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/VS2022/ToDoList/ToDoList/Views/Account/LoginForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbkZvcm0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -32,12 +36,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/VS2022/ToDoList/ToDoList/Views/Task/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [E:/VS2022/ToDoList/ToDoList/Views/Task/TaskForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xUYXNrRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/VS2022/ToDoList/ToDoList/Views/Task/UpdateTaskForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xVcGRhdGVUYXNrRm9ybS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/VS2022/ToDoList/ToDoList/Views/_ViewImports.cshtml]
